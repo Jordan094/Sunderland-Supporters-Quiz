@@ -1,4 +1,3 @@
-/* Reset some default styles for better consistency */
 body,
 h1,
 p,
@@ -10,6 +9,10 @@ a {
 }
 
 body {
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Fira Sans', sans-serif;
     background-color: #fff;
     display: flex;
@@ -27,12 +30,12 @@ body {
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     border-radius: 10px;
 }
 
 h1 {
-    color: #dc3545;
+    color: #fff;
     font-size: 40px;
     margin-bottom: 20px;
 }
@@ -50,7 +53,7 @@ h1 {
 .box:hover {
     background-color: #212529;
     color: #dc3545;
-    border: 2px solid #dc3545;
+    border: 2px solid #212529;
 }
 
 a {
