@@ -39,6 +39,7 @@ h1 {
     color: #fff;
     font-size: 40px;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .menu-button {
@@ -68,10 +69,18 @@ h1 {
     font-weight: 600;
 }
 
+.instructions-list {
+    padding-right: 2%;
+}
+
 .instructions-list-item {
     font-size: 18px;
+    font-weight: 600;
+    color: #fff;
     text-align: left;
+    margin-left: 4%;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #return-button {
