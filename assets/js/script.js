@@ -16,7 +16,7 @@ instructionsButton.addEventListener("click", function (event) {
     // Show the instructions element
     instructionsElement.style.display = "block";
 });
-
+ 
 // Add a click event listener to the "Return" button within the instructions element
 const returnButton = document.getElementById("return-button");
 returnButton.addEventListener("click", function () {
