@@ -1,7 +1,8 @@
 body,
 h1,
 p,
-a {
+a,
+button {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -40,24 +41,59 @@ h1 {
     margin-bottom: 20px;
 }
 
-.box {
+.menu-button {
+    font-size: 20px;
+    font-weight: 600;
+    width: 85%;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    width: 85%;
+    background-color: #212529;
+    color: #fff;
+    border: none;
+}
+
+.menu-choicebox {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.instructions-list-item {
+    font-size: 18px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+#return-button {
+    font-size: 20px;
+    font-weight: 600;
+    width: 85%;
     background-color: #dc3545;
     color: #fff;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
+    border: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
-.box:hover {
+#return-button:hover {
+    font-size: 20px;
+    font-weight: 600;
+    width: 85%;
     background-color: #212529;
-    color: #dc3545;
-    border: 2px solid #212529;
-}
-
-a {
     color: #fff;
-        font-size: 20px;
-        font-weight: 600;
+    border: none;
 }

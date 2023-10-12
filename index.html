@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <title>Sunderland Supporters Quiz</title>
-  </head>
+</head>
 
-  <body>
-<div class="quiz-container">
-    <h1>Sunderland Supporters Quiz</h1>
-    <div class="box play-game">
-        <a href="#">Play Game</a>
-    </div>
-    <div class="box high-scores">
-        <a href="#">High Scores</a>
-    </div>
-    <div class="box instructions">
-        <a href="#" id="show-instructions">Instructions</a>
-    </div>
+<body>
+    <div class="quiz-container">
+        <h1>Sunderland Supporters Quiz</h1>
+        <div class="box play-game">
+            <button class="menu-button">Play Game</button>
+        </div>
+        <div class="box high-scores">
+            <button class="menu-button">High Scores</button>
+        </div>
+        <div class="box instructions">
+            <button class="menu-button" id="show-instructions">Instructions</button>
+        </div>
 
-    <div class="box quiz-instructions" style="display: none;">
-        <h2>Instructions:</h2>
-        <ul>
-            <li>There will be a total of 10 Questions.</li>
-            <li>Each question will have 4 possible answers, only 1 will be correct.</li>
-            <li>For each correct answer you will get one point.</li>
-            <li>After the 10 questions the quiz will finish and you will see your total score.</li>
-            <li>Your score will be logged to the high scores.</li>
-        </ul>
-        <button id="return-button">Return</button>
+        <div class="box quiz-instructions" style="display: none;">
+            <ul class="instructions-list">
+                <li class="instructions-list-item">There will be a total of 15 Questions.</li>
+                <li class="instructions-list-item">Each question will have 4 choices, only 1 will be correct.</li>
+                <li class="instructions-list-item">For each correct answer you will get one point.</li>
+                <li class="instructions-list-item">One the quiz finises you will see your total score.</li>
+                <li class="instructions-list-item">Your score will be logged to the high scores.</li>
+                <li class="instructions-list-item">Good luck and have fun!</li>
+            </ul>
+            <button id="return-button">Main Menu</button>
+        </div>
     </div>
-</div>
+    <script src="assets/js/script.js"></script>
+</body>
 
-    <script src="/assets/js/script.js"></script>
-  </body>
 </html>
