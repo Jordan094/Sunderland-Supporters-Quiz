@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question": "In which year was Sunderland AFC founded?",
+      "options": ["1879", "1905", "1920", "1943"],
+      "correctAnswer": "1879"
+    },
+    {
+      "question": "What is the nickname of Sunderland AFC?",
+      "options": ["The Villagers", "The Lads", "The Hammers", "The Canaries"],
+      "correctAnswer": "The Lads"
+    },
+    {
+      "question": "Which stadium is the home ground of Sunderland AFC?",
+      "options": ["St. James' Park", "Riverside Stadium", "Stadium of Light", "Goodison Park"],
+      "correctAnswer": "Stadium of Light"
+    },
+    {
+      "question": "Who is Sunderland AFC's all-time top scorer?",
+      "options": ["Niall Quinn", "Kevin Phillips", "Darren Bent", "Raich Carter"],
+      "correctAnswer": "Kevin Phillips"
+    },
+    {
+      "question": "Which English league is Sunderland AFC currently playing in?",
+      "options": ["Premier League", "Championship", "League One", "League Two"],
+      "correctAnswer": "Championship"
+    },
+    {
+      "question": "Who is the current manager of Sunderland AFC?",
+      "options": ["Sam Allardyce", "Roy Keane", "Lee Johnson", "Gus Poyet"],
+      "correctAnswer": "Lee Johnson"
+    },
+    {
+      "question": "How many times has Sunderland AFC won the FA Cup?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": "2"
+    },
+    {
+      "question": "Which player holds the record for the most appearances for Sunderland AFC?",
+      "options": ["Len Shackleton", "Gary Bennett", "Jimmy Montgomery", "Jim Baxter"],
+      "correctAnswer": "Jimmy Montgomery"
+    },
+    {
+      "question": "What is the capacity of the Stadium of Light?",
+      "options": ["35,000", "40,000", "45,000", "50,000"],
+      "correctAnswer": "49,000"
+    },
+    {
+      "question": "Sunderland AFC's main rivalry is with which club?",
+      "options": ["Newcastle United", "Middlesbrough", "Leeds United", "Sheffield Wednesday"],
+      "correctAnswer": "Newcastle United"
+    },
+    {
+      "question": "What year did Sunderland AFC win their first top-flight league title?",
+      "options": ["1935", "1954", "1973", "1990"],
+      "correctAnswer": "1935"
+    },
+    {
+      "question": "Which Sunderland AFC player won the 2010 PFA Young Player of the Year award?",
+      "options": ["Jordan Henderson", "Lee Cattermole", "Asamoah Gyan", "Kieran Richardson"],
+      "correctAnswer": "Jordan Henderson"
+    },
+    {
+      "question": "What is the nickname of Sunderland's stadium, the Stadium of Light?",
+      "options": ["The Beacon", "The Lighthouse", "The Torch", "The Flame"],
+      "correctAnswer": "The Stadium of Light"
+    },
+    {
+      "question": "Which manager led Sunderland AFC to their famous 'Great Escape' from relegation in the 2013-2014 Premier League season?",
+      "options": ["Steve Bruce", "Gus Poyet", "Dick Advocaat", "Roy Keane"],
+      "correctAnswer": "Gus Poyet"
+    },
+    {
+      "question": "In which city is Sunderland located?",
+      "options": ["Newcastle", "Leeds", "Manchester", "Sunderland"],
+      "correctAnswer": "Sunderland"
+    },
+    {
+      "question": "Who scored Sunderland AFC's winning goal in the 1973 FA Cup final against Leeds United?",
+      "options": ["Bob Stokoe", "Billy Hughes", "Ian Porterfield", "Dennis Tueart"],
+      "correctAnswer": "Ian Porterfield"
+    },
+    {
+      "question": "Which former Sunderland AFC player is known for his 'Sixer's Soapbox' column in the local newspaper?",
+      "options": ["Charlie Hurley", "Monty", "Kevin Ball", "Colin Todd"],
+      "correctAnswer": "Pete Sixsmith"
+    },
+    {
+      "question": "What was the original name of Sunderland AFC before becoming the current name?",
+      "options": ["Sunderland Rovers", "Sunderland Wanderers", "Sunderland Albion", "Sunderland United"],
+      "correctAnswer": "Sunderland Rovers"
+    },
+    {
+      "question": "In which season did Sunderland AFC achieve their highest-ever Premier League finish?",
+      "options": ["7th", "8th", "9th", "10th"],
+      "correctAnswer": "7th"
+    },
+    {
+      "question": "What is the maximum number of teams that can be promoted from the EFL Championship to the Premier League in a single season?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": "3"
+    },
+    {
+      "question": "Which player holds the record for the most goals scored in a single season for Sunderland AFC?",
+      "options": ["Kevin Phillips", "Brian Clough", "Darren Bent", "Niall Quinn"],
+      "correctAnswer": "Brian Clough"
+    },
+    {
+      "question": "Who is known as 'The King' among Sunderland AFC fans for his legendary status at the club?",
+      "options": ["Raich Carter", "Stan Anderson", "Gary Rowell", "Lee Barry Cattermole"],
+      "correctAnswer": "Raich Carter"
+    },
+    {
+      "question": "Which country is Jordan Henderson, a former Sunderland AFC player and current Liverpool captain, from?",
+      "options": ["Wales", "Ireland", "Scotland", "England"],
+      "correctAnswer": "England"
+    },
+    {
+      "question": "Who is Sunderland AFC's all-time top scorer in the Premier League?",
+      "options": ["Kevin Phillips", "Niall Quinn", "Darren Bent", "Sunderland has never had a top scorer in the Premier League"],
+      "correctAnswer": "Darren Bent"
+    },
+    {
+      "question": "Which manager took Sunderland AFC to the League Cup final in 2014, where they were runners-up to Manchester City?",
+      "options": ["Sam Allardyce", "Roy Keane", "Gus Poyet", "Dick Advocaat"],
+      "correctAnswer": "Gus Poyet"
+    },
+    {
+      "question": "What was the previous name of the Stadium of Light before its renaming in 1997?",
+      "options": ["Roker Park", "Stadium of the North", "Sunderland Stadium", "Sunderland Arena"],
+      "correctAnswer": "Roker Park"
+    },
+    {
+      "question": "Who scored Sunderland AFC's first goal in the Premier League era?",
+      "options": ["Niall Quinn", "Kevin Phillips", "Michael Gray", "Darren Williams"],
+      "correctAnswer": "Paul Stewart"
+    },
+    {
+      "question": "Sunderland AFC's mascot is a black cat named...",
+      "options": ["Felix", "Sammy the Squirrel", "Monty", "Leo the Lion"],
+      "correctAnswer": "Sammy the Squirrel"
+    },
+    {
+      "question": "Which manager succeeded Roy Keane as the manager of Sunderland AFC in 2009?",
+      "options": ["Steve Bruce", "Sam Allardyce", "Gus Poyet", "Martin O'Neill"],
+      "correctAnswer": "Steve Bruce"
+    },
+    {
+      "question": "What is the capacity of the Stadium of Light's away section?",
+      "options": ["1,000", "2,000", "3,000", "4,000"],
+      "correctAnswer": "3,000"
+    }
+  ]
+}
