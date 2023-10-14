@@ -117,7 +117,6 @@ h1 {
     color: white;
 }
 
-/* CSS for centering the high scores table */
 .box.high-scores-table {
     display: flex;
     align-items: center;
@@ -139,31 +138,27 @@ h1 {
     width: 100%;
     border-collapse: collapse;
     background-color: rgba(0, 0, 0, 0.7);
-    /* Semi-transparent background */
     margin: 20px 0;
 }
 
 #high-scores-table th,
 #high-scores-table td {
     padding: 10px 15px;
-    border: 1px solid white;
+    border: 3px solid black;
 }
 
 #high-scores-table th {
-    background-color: #333;
-    /* Header background color */
+    background-color: #dc3545;
     font-weight: bold;
-    /* Bold text for headers */
 }
 
 #high-scores-table tr:nth-child(even) {
-    background-color: #444;
-    /* Alternate row background color */
+    background-color: #fff;
+    color: #212529;
 }
 
 #high-scores-table tr:nth-child(odd) {
-    background-color: #555;
-    /* Alternate row background color */
+    background-color: #dc3545;
 }
 
 @media (max-width: 1152px) {
