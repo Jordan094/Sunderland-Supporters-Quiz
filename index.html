@@ -13,7 +13,7 @@
     <div class="quiz-container">
         <h1>Sunderland Supporters Quiz</h1>
         <div class="box play-game">
-            <button class="menu-button">Play Game</button>
+            <button class="menu-button" id="play-game-button">Play Game</button>
         </div>
         <div class="box high-scores">
             <button class="menu-button" id="high-scores-button">High Scores</button>
@@ -26,8 +26,8 @@
             <ul class="instructions-list">
                 <li class="instructions-list-item">There will be a total of 15 Questions.</li>
                 <li class="instructions-list-item">Each question will have 4 choices, only 1 will be correct.</li>
-                <li class="instructions-list-item">For each correct answer you will get one point.</li>
-                <li class="instructions-list-item">Once the quiz finishes you will see your total score.</li>
+                <li class="instructions-list-item">For each correct answer, you will get one point.</li>
+                <li class="instructions-list-item">Once the quiz finishes, you will see your total score.</li>
                 <li class="instructions-list-item">Your score will be logged to the high scores.</li>
                 <li class="instructions-list-item">Good luck and have fun!</li>
             </ul>
@@ -43,6 +43,16 @@
                 </tr>
             </table>
             <button class="menu-button" id="return-from-high-scores">Main Menu</button>
+        </div>
+
+        <div class="box username-input" style="display: none;">
+            <h2>Enter Your Username:</h2>
+            <input type="text" id="username-input" placeholder="Your Username">
+            <br><br>
+            <div class="button-container">
+                <button class="menu-button" id="start-game-button">Start Game</button>
+                <button class="menu-button" id="return-from-username-input">Main Menu</button>
+            </div>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
