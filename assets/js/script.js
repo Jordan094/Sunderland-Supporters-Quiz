@@ -135,10 +135,8 @@ function displayQuestion() {
 function checkAnswer(selectedChoice) {
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
     if (selectedChoice === correctAnswer) {
-        alert("Correct!");
         playCorrectSound();
     } else {
-        alert("Incorrect. Try the next question.");
         playWrongSound();
     }
 
