@@ -10,6 +10,28 @@ const startGameButton = document.getElementById("start-game-button");
 const returnFromUsernameInputButton = document.getElementById("return-from-username-input");
 const usernameInput = document.getElementById("username-input");
 const highScoresTable = document.querySelector(".high-scores-table");
+const questionContainer = document.querySelector(".question-container");
+
+// Array of quiz questions and answers
+const questions = [
+ {
+      "question": "In which year was Sunderland AFC founded?",
+      "options": ["1879", "1905", "1920", "1943"],
+      "correctAnswer": "1879"
+    },
+    {
+      "question": "What is the nickname of Sunderland AFC?",
+      "options": ["The Villagers", "The Lads", "The Hammers", "The Canaries"],
+      "correctAnswer": "The Lads"
+    },
+    {
+      "question": "Which stadium is the home ground of Sunderland AFC?",
+      "options": ["St. James' Park", "Riverside Stadium", "Stadium of Light", "Goodison Park"],
+      "correctAnswer": "Stadium of Light"
+    }
+];
+
+let currentQuestionIndex = 0;
 
 // Add a click event listener to the buttons
 document.addEventListener("click", function (event) {
@@ -72,35 +94,9 @@ document.addEventListener("click", function (event) {
     }
 });
 
-// Function to populate the high scores table
-function populateHighScoresTable() {
-    const highScoresTable = document.getElementById("high-scores-table");
-    const highScoresData = [
-        { username: "User1", score: 10 },
-        { username: "User2", score: 8 },
-        { username: "User3", score: 12 },
-    ];
-
-    // Clear existing table rows
-    highScoresTable.innerHTML = "<tr><th>Username</th><th>Score</th></tr>";
-
-    // Add rows for each high score entry
-    highScoresData.forEach((entry) => {
-        const row = document.createElement("tr");
-        const usernameCell = document.createElement("td");
-        usernameCell.textContent = entry.username;
-        const scoreCell = document.createElement("td");
-        scoreCell.textContent = entry.score;
-
-        row.appendChild(usernameCell);
-        row.appendChild(scoreCell);
-        highScoresTable.appendChild(row);
-    }
-)}
-
 // Function to check if the username input is empty
 function checkUsernameInput() {
-    const username = usernameInput.value.trim(); 
+    const username = usernameInput.value.trim();
 
     if (username === "") {
         alert("Please enter a username.");
@@ -108,8 +104,54 @@ function checkUsernameInput() {
         // If a username is entered, you can proceed with the game or other actions here.
         usernameInputContainer.style.display = "none";
 
+        // Start the game by displaying the first question
+        displayQuestion();
     }
 }
 
+function displayQuestion() {
+    if (currentQuestionIndex < questions.length) {
+        questionContainer.style.display = "block";
+
+        const question = document.createElement("div");
+        question.textContent = questions[currentQuestionIndex].question;
+        questionContainer.appendChild(question);
+
+        const options = questions[currentQuestionIndex].options;
+        options.forEach((choice, index) => {
+            const choiceElement = document.createElement("button");
+            choiceElement.textContent = choice;
+            choiceElement.className = "menu-button"; // Add the menu-button class
+            choiceElement.addEventListener("click", () => checkAnswer(choice));
+            questionContainer.appendChild(choiceElement);
+        });
+
+    } else {
+        // No more questions; game over logic can go here
+        alert("Game over! You've answered all the questions.");
+    }
+}
+
+function checkAnswer(selectedChoice) {
+    const correctAnswer = questions[currentQuestionIndex].correctAnswer;
+    if (selectedChoice === correctAnswer) {
+        alert("Correct!");
+    } else {
+        alert("Incorrect. Try the next question.");
+    }
+
+    const questionToRemove = document.querySelector(".question-container");
+    questionToRemove.innerHTML = "";
+    questionToRemove.style.display = "none";
+
+    currentQuestionIndex++;
+
+    // Check if there are more questions
+    if (currentQuestionIndex < questions.length) {
+        displayQuestion(); // Move to the next question
+    } else {
+        alert("Game over! You've answered all the questions.");
+    }
+}
 
 startGameButton.addEventListener("click", checkUsernameInput);
