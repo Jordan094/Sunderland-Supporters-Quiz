@@ -127,8 +127,11 @@ function displayQuestion() {
         });
 
     } else {
-        // No more questions; game over logic can go here
-        alert("Game over! You've answered all the questions.");
+        // All questions have been answered, show the "Game Over" section
+        const gameOverSection = document.querySelector(".game-over");
+        const totalScore = document.getElementById("total-score");
+        totalScore.textContent = currentQuestionIndex; // Display the total score
+        gameOverSection.style.display = "block";
     }
 }
 
@@ -150,7 +153,11 @@ function checkAnswer(selectedChoice) {
     if (currentQuestionIndex < questions.length) {
         displayQuestion(); // Move to the next question
     } else {
-        alert("Game over! You've answered all the questions.");
+        // All questions have been answered, show the "Game Over" section
+        const gameOverSection = document.querySelector(".game-over");
+        const totalScore = document.getElementById("total-score");
+        totalScore.textContent = currentQuestionIndex; // Display the total score
+        gameOverSection.style.display = "block";
     }
 }
 
@@ -165,3 +172,14 @@ function playWrongSound() {
 }
 
 startGameButton.addEventListener("click", checkUsernameInput);
+
+const returnToMainMenuButton = document.getElementById("return-to-main-menu");
+returnToMainMenuButton.addEventListener("click", () => {
+    // Reset the game state and return to the main menu
+    currentQuestionIndex = 0;
+    const gameOverSection = document.querySelector(".game-over");
+    gameOverSection.style.display = "none";
+    playGameButton.style.display = "inline";
+    highScoresButton.style.display = "inline";
+    instructionsButton.style.display = "inline";
+});
