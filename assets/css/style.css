@@ -180,6 +180,12 @@ h2 {
     background-color: #dc3545;
 }
 
+.score-text {
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+}
+
 @media (max-width: 1152px) {
     .quiz-container {
         width: 75%;
