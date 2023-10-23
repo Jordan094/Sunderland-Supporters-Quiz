@@ -70,30 +70,47 @@ document.addEventListener("click", function (event) {
         // Hide the username input container
         usernameInputContainer.style.display = "none";
     }
-    function populateHighScoresTable() {
-        const highScoresTable = document.getElementById("high-scores-table");
-        const highScoresData = [
-            { username: "User1", score: 10 },
-            { username: "User2", score: 8 },
-            { username: "User3", score: 12 },
-        ];
-
-        // Clear existing table rows
-        highScoresTable.innerHTML = "<tr><th>Username</th><th>Score</th></tr>";
-
-        // Add rows for each high score entry
-        highScoresData.forEach((entry) => {
-            const row = document.createElement("tr");
-            const usernameCell = document.createElement("td");
-            usernameCell.textContent = entry.username;
-            const scoreCell = document.createElement("td");
-            scoreCell.textContent = entry.score;
-
-            row.appendChild(usernameCell);
-            row.appendChild(scoreCell);
-            highScoresTable.appendChild(row);
-        });
-    }
-
 });
 
+// Function to populate the high scores table
+function populateHighScoresTable() {
+    const highScoresTable = document.getElementById("high-scores-table");
+    const highScoresData = [
+        { username: "User1", score: 10 },
+        { username: "User2", score: 8 },
+        { username: "User3", score: 12 },
+    ];
+
+    // Clear existing table rows
+    highScoresTable.innerHTML = "<tr><th>Username</th><th>Score</th></tr>";
+
+    // Add rows for each high score entry
+    highScoresData.forEach((entry) => {
+        const row = document.createElement("tr");
+        const usernameCell = document.createElement("td");
+        usernameCell.textContent = entry.username;
+        const scoreCell = document.createElement("td");
+        scoreCell.textContent = entry.score;
+
+        row.appendChild(usernameCell);
+        row.appendChild(scoreCell);
+        highScoresTable.appendChild(row);
+    }
+)}
+
+// Function to check if the username input is empty
+function checkUsernameInput() {
+    const username = usernameInput.value.trim(); // Remove leading and trailing whitespace
+
+    if (username === "") {
+        alert("Please enter a username.");
+    } else {
+        // If a username is entered, you can proceed with the game or other actions here.
+        // For example, you can hide the username input container and start the game.
+        usernameInputContainer.style.display = "none";
+        // Add your code to start the game or perform other actions here.
+    }
+}
+
+// Add a click event listener to the "Start Game" button to trigger the checkUsernameInput function
+startGameButton.addEventListener("click", checkUsernameInput);
