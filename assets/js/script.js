@@ -14,20 +14,20 @@ const questionContainer = document.querySelector(".question-container");
 
 // Array of quiz questions and answers
 const questions = [
- {
-      "question": "In which year was Sunderland AFC founded?",
-      "options": ["1879", "1905", "1920", "1943"],
-      "correctAnswer": "1879"
+    {
+        "question": "In which year was Sunderland AFC founded?",
+        "options": ["1879", "1905", "1920", "1943"],
+        "correctAnswer": "1879"
     },
     {
-      "question": "What is the nickname of Sunderland AFC?",
-      "options": ["The Villagers", "The Lads", "The Hammers", "The Canaries"],
-      "correctAnswer": "The Lads"
+        "question": "What is the nickname of Sunderland AFC?",
+        "options": ["The Villagers", "The Lads", "The Hammers", "The Canaries"],
+        "correctAnswer": "The Lads"
     },
     {
-      "question": "Which stadium is the home ground of Sunderland AFC?",
-      "options": ["St. James' Park", "Riverside Stadium", "Stadium of Light", "Goodison Park"],
-      "correctAnswer": "Stadium of Light"
+        "question": "Which stadium is the home ground of Sunderland AFC?",
+        "options": ["St. James' Park", "Riverside Stadium", "Stadium of Light", "Goodison Park"],
+        "correctAnswer": "Stadium of Light"
     }
 ];
 
@@ -136,8 +136,10 @@ function checkAnswer(selectedChoice) {
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
     if (selectedChoice === correctAnswer) {
         alert("Correct!");
+        playCorrectSound();
     } else {
         alert("Incorrect. Try the next question.");
+        playWrongSound();
     }
 
     const questionToRemove = document.querySelector(".question-container");
@@ -152,6 +154,16 @@ function checkAnswer(selectedChoice) {
     } else {
         alert("Game over! You've answered all the questions.");
     }
+}
+
+function playCorrectSound() {
+    const correctSound = document.getElementById("correctSound");
+    correctSound.play();
+}
+
+function playWrongSound() {
+    const wrongSound = document.getElementById("wrongSound");
+    wrongSound.play();
 }
 
 startGameButton.addEventListener("click", checkUsernameInput);
