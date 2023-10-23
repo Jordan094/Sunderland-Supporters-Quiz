@@ -100,17 +100,16 @@ function populateHighScoresTable() {
 
 // Function to check if the username input is empty
 function checkUsernameInput() {
-    const username = usernameInput.value.trim(); // Remove leading and trailing whitespace
+    const username = usernameInput.value.trim(); 
 
     if (username === "") {
         alert("Please enter a username.");
     } else {
         // If a username is entered, you can proceed with the game or other actions here.
-        // For example, you can hide the username input container and start the game.
         usernameInputContainer.style.display = "none";
-        // Add your code to start the game or perform other actions here.
+
     }
 }
 
-// Add a click event listener to the "Start Game" button to trigger the checkUsernameInput function
+
 startGameButton.addEventListener("click", checkUsernameInput);
