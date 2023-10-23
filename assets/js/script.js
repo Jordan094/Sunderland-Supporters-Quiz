@@ -32,6 +32,7 @@ const questions = [
 ];
 
 let currentQuestionIndex = 0;
+let correctAnswers = 0; // Track the number of correct answers
 
 // Add a click event listener to the buttons
 document.addEventListener("click", function (event) {
@@ -130,7 +131,7 @@ function displayQuestion() {
         // All questions have been answered, show the "Game Over" section
         const gameOverSection = document.querySelector(".game-over");
         const totalScore = document.getElementById("total-score");
-        totalScore.textContent = currentQuestionIndex; // Display the total score
+        totalScore.textContent = correctAnswers; // Display the total score as the number of correct answers
         gameOverSection.style.display = "block";
     }
 }
@@ -139,6 +140,7 @@ function checkAnswer(selectedChoice) {
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
     if (selectedChoice === correctAnswer) {
         playCorrectSound();
+        correctAnswers++; // Increase the count of correct answers
     } else {
         playWrongSound();
     }
@@ -156,7 +158,7 @@ function checkAnswer(selectedChoice) {
         // All questions have been answered, show the "Game Over" section
         const gameOverSection = document.querySelector(".game-over");
         const totalScore = document.getElementById("total-score");
-        totalScore.textContent = currentQuestionIndex; // Display the total score
+        totalScore.textContent = correctAnswers; // Display the total score as the number of correct answers
         gameOverSection.style.display = "block";
     }
 }
@@ -177,6 +179,7 @@ const returnToMainMenuButton = document.getElementById("return-to-main-menu");
 returnToMainMenuButton.addEventListener("click", () => {
     // Reset the game state and return to the main menu
     currentQuestionIndex = 0;
+    correctAnswers = 0; // Reset the correct answers count
     const gameOverSection = document.querySelector(".game-over");
     gameOverSection.style.display = "none";
     playGameButton.style.display = "inline";
