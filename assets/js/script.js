@@ -11,6 +11,9 @@ const returnFromUsernameInputButton = document.getElementById("return-from-usern
 const usernameInput = document.getElementById("username-input");
 const highScoresTable = document.querySelector(".high-scores-table");
 const questionContainer = document.querySelector(".question-container");
+const muteButton = document.getElementById("mute-button");
+const correctSound = document.getElementById("correctSound");
+const wrongSound = document.getElementById("wrongSound");
 
 // Array of quiz questions and answers
 const questions = [
@@ -38,62 +41,36 @@ let correctAnswers = 0; // Track the number of correct answers
 document.addEventListener("click", function (event) {
     if (event.target === instructionsButton) {
         event.preventDefault();
-
-        // Hide other buttons and elements
-        playGameButton.style.display = "none";
-        highScoresButton.style.display = "none";
-        instructionsButton.style.display = "none";
-        highScoresTable.style.display = "none";
-
-        // Show the instructions element
+        toggleButtonsAndElements();
         instructionsElement.style.display = "block";
     } else if (event.target === highScoresButton) {
         event.preventDefault();
-
-        // Hide other buttons and elements
-        playGameButton.style.display = "none";
-        highScoresButton.style.display = "none";
-        instructionsButton.style.display = "none";
-        instructionsElement.style.display = "none";
-
-        // Show the high scores table
+        toggleButtonsAndElements();
         highScoresTable.style.display = "block";
-
-        // Call a function to populate the high scores table
         populateHighScoresTable();
     } else if (event.target === returnFromInstructionsButton || event.target === returnFromHighScoresButton) {
         event.preventDefault();
-
-        // Show other buttons
-        playGameButton.style.display = "inline";
-        highScoresButton.style.display = "inline";
-        instructionsButton.style.display = "inline";
-
-        // Hide the instructions element or high scores table when the "Return" button is clicked
-        instructionsElement.style.display = "none";
-        highScoresTable.style.display = "none";
+        toggleButtonsAndElements();
     } else if (event.target === playGameButton) {
         event.preventDefault();
-
-        // Hide other buttons
-        playGameButton.style.display = "none";
-        highScoresButton.style.display = "none";
-        instructionsButton.style.display = "none";
-
-        // Show the username input container
+        toggleButtonsAndElements();
         usernameInputContainer.style.display = "block";
     } else if (event.target === returnFromUsernameInputButton) {
         event.preventDefault();
-
-        // Show other buttons
-        playGameButton.style.display = "inline";
-        highScoresButton.style.display = "inline";
-        instructionsButton.style.display = "inline";
-
-        // Hide the username input container
-        usernameInputContainer.style.display = "none";
+        toggleButtonsAndElements();
     }
 });
+
+// Function to toggle buttons and elements visibility
+function toggleButtonsAndElements() {
+    playGameButton.style.display = playGameButton.style.display === "none" ? "inline" : "none";
+    highScoresButton.style.display = highScoresButton.style.display === "none" ? "inline" : "none";
+    instructionsButton.style.display = instructionsButton.style.display === "none" ? "inline" : "none";
+    instructionsElement.style.display = "none";
+    highScoresTable.style.display = "none";
+    usernameInputContainer.style.display = "none";
+    questionContainer.style.display = "none";
+}
 
 // Function to check if the username input is empty
 function checkUsernameInput() {
@@ -102,14 +79,12 @@ function checkUsernameInput() {
     if (username === "") {
         alert("Please enter a username.");
     } else {
-        // If a username is entered, you can proceed with the game or other actions here.
         usernameInputContainer.style.display = "none";
-
-        // Start the game by displaying the first question
         displayQuestion();
     }
 }
 
+// Function to display a question
 function displayQuestion() {
     if (currentQuestionIndex < questions.length) {
         questionContainer.style.display = "block";
@@ -122,25 +97,24 @@ function displayQuestion() {
         options.forEach((choice, index) => {
             const choiceElement = document.createElement("button");
             choiceElement.textContent = choice;
-            choiceElement.className = "menu-button"; // Add the menu-button class
+            choiceElement.className = "menu-button";
             choiceElement.addEventListener("click", () => checkAnswer(choice));
             questionContainer.appendChild(choiceElement);
         });
-
     } else {
-        // All questions have been answered, show the "Game Over" section
         const gameOverSection = document.querySelector(".game-over");
         const totalScore = document.getElementById("total-score");
-        totalScore.textContent = correctAnswers; // Display the total score as the number of correct answers
+        totalScore.textContent = correctAnswers;
         gameOverSection.style.display = "block";
     }
 }
 
+// Function to check the answer and proceed to the next question
 function checkAnswer(selectedChoice) {
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
     if (selectedChoice === correctAnswer) {
         playCorrectSound();
-        correctAnswers++; // Increase the count of correct answers
+        correctAnswers++;
     } else {
         playWrongSound();
     }
@@ -151,38 +125,51 @@ function checkAnswer(selectedChoice) {
 
     currentQuestionIndex++;
 
-    // Check if there are more questions
     if (currentQuestionIndex < questions.length) {
-        displayQuestion(); // Move to the next question
+        displayQuestion();
     } else {
-        // All questions have been answered, show the "Game Over" section
         const gameOverSection = document.querySelector(".game-over");
         const totalScore = document.getElementById("total-score");
-        totalScore.textContent = correctAnswers; // Display the total score as the number of correct answers
+        totalScore.textContent = correctAnswers;
         gameOverSection.style.display = "block";
     }
 }
 
+// Function to play correct sound
 function playCorrectSound() {
-    const correctSound = document.getElementById("correctSound");
     correctSound.play();
 }
 
+// Function to play wrong sound
 function playWrongSound() {
-    const wrongSound = document.getElementById("wrongSound");
     wrongSound.play();
 }
 
+// Event listener for starting the game
 startGameButton.addEventListener("click", checkUsernameInput);
 
+// Event listener for returning to the main menu
 const returnToMainMenuButton = document.getElementById("return-to-main-menu");
 returnToMainMenuButton.addEventListener("click", () => {
-    // Reset the game state and return to the main menu
     currentQuestionIndex = 0;
-    correctAnswers = 0; // Reset the correct answers count
+    correctAnswers = 0;
     const gameOverSection = document.querySelector(".game-over");
     gameOverSection.style.display = "none";
-    playGameButton.style.display = "inline";
-    highScoresButton.style.display = "inline";
-    instructionsButton.style.display = "inline";
+    toggleButtonsAndElements();
 });
+
+// Event listener for the mute button
+muteButton.addEventListener("click", toggleMute);
+
+// Function to toggle mute/unmute state
+function toggleMute() {
+    if (correctSound.muted !== undefined) {
+        // Check if the 'muted' property is supported
+        correctSound.muted = !correctSound.muted;
+        wrongSound.muted = !wrongSound.muted;
+
+        muteButton.textContent = correctSound.muted ? "Unmute" : "Mute";
+    } else {
+        alert("Mute functionality not supported in your browser.");
+    }
+}
