@@ -168,7 +168,12 @@ function toggleMute() {
         correctSound.muted = !correctSound.muted;
         wrongSound.muted = !wrongSound.muted;
 
-        muteButton.textContent = correctSound.muted ? "Unmute" : "Mute";
+        // Toggle display of icons based on the mute state
+        const unmutedIcon = document.querySelector("#mute-button .fa-volume-up");
+        const mutedIcon = document.querySelector("#mute-button .fa-volume-mute");
+
+        unmutedIcon.style.display = correctSound.muted ? "none" : "inline";
+        mutedIcon.style.display = correctSound.muted ? "inline" : "none";
     } else {
         alert("Mute functionality not supported in your browser.");
     }
