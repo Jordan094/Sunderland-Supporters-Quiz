@@ -106,13 +106,18 @@ h2 {
 
 /* Styling for mute buttons*/
 .mute-menu-button {
-    padding: 1.5%;
+    padding: 2.5%;
     margin-top: 5%;
     border: none;
     cursor: pointer;
     border-radius: 10px;
     background-color: #dc3545;
     color: #fff;
+}
+
+/* Styling for mute buttons when muted */
+.mute-menu-button.muted {
+    background-color: #6d1b23;
 }
 
 /* Styling for the list of instructions */
