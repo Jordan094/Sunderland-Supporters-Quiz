@@ -228,6 +228,7 @@ h2 {
 }
 
 .mute-menu-button {
+    margin-top: 5%;
     position: relative;
     bottom: 10px;
     left: 10px;
