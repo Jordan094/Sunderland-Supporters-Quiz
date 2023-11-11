@@ -117,7 +117,7 @@ h2 {
 
 /* Styling for mute buttons when muted */
 .mute-menu-button.muted {
-    background-color: #6d1b23;
+    background-color: #333;
 }
 
 /* Styling for the list of instructions */
