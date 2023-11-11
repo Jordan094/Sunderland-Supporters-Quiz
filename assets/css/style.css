@@ -200,6 +200,8 @@ h2 {
     font-size: 24px;
 }
 
+
+/* Media queries for larger devices */
 @media (max-width: 1152px) {
     .quiz-container {
         width: 75%;
@@ -208,6 +210,7 @@ h2 {
     }
 }
 
+/* Media queries for medium devices such as laptops/tablets */
 @media (max-width: 768px) {
     body {
         background-position-x: 10%;
@@ -241,6 +244,7 @@ h2 {
     }
 }
 
+/* Media queries for smaller devices such as phones */
 @media (max-width: 480px) {
     body {
         background-position-x: 15%;
