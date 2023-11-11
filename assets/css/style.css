@@ -10,7 +10,6 @@ button {
     list-style: none;
 }
 
-
 /* Main body styles */
 body {
     background-image: url("../images/background.jpg");
@@ -26,7 +25,6 @@ body {
     min-height: 80vh;
 }
 
-
 /* Styling for the main quiz container */
 .quiz-container {
     width: 80%;
@@ -40,7 +38,6 @@ body {
     border-radius: 10px;
 }
 
-
 /* Styling for main headings */
 h1 {
     color: #fff;
@@ -48,16 +45,18 @@ h1 {
     margin-bottom: 20px;
     text-decoration: underline;
 }
+
 h2 {
     color: white;
 }
-
 
 /* Styling for buttons in the Quiz*/
 .button-container {
     display: flex;
     justify-content: space-between;
 }
+
+/* Styling for menu buttons*/
 .menu-button {
     font-size: 20px;
     font-weight: 600;
@@ -72,6 +71,15 @@ h2 {
     cursor: pointer;
     margin: 10px;
 }
+
+.menu-button:hover {
+    width: 85%;
+    background-color: #212529;
+    color: #fff;
+    border: none;
+}
+
+/* Styling for return/back buttons*/
 #return-button {
     font-size: 20px;
     font-weight: 600;
@@ -86,6 +94,7 @@ h2 {
     transition: background-color 0.3s;
     cursor: pointer;
 }
+
 #return-button:hover {
     font-size: 20px;
     font-weight: 600;
@@ -94,12 +103,8 @@ h2 {
     color: #fff;
     border: none;
 }
-.menu-button:hover {
-    width: 85%;
-    background-color: #212529;
-    color: #fff;
-    border: none;
-}
+
+/* Styling for mute buttons*/
 .mute-menu-button {
     padding: 1.5%;
     margin-top: 5%;
@@ -110,17 +115,11 @@ h2 {
     color: #fff;
 }
 
-.menu-choicebox {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-
 /* Styling for the list of instructions */
 .instructions-list {
     padding-right: 2%;
 }
+
 .instructions-list-item {
     font-size: 18px;
     font-weight: 600;
@@ -131,8 +130,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-
-
+/* Styling for the display of questions */
 .question-container div {
     font-family: 'Fira Sans', sans-serif;
     padding-top: 1%;
@@ -142,6 +140,7 @@ h2 {
     color: #fff;
 }
 
+/* Styling for the display of hiscores */
 .box.high-scores-table {
     display: flex;
     flex-direction: column;
