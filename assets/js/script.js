@@ -84,8 +84,10 @@ function checkUsernameInput() {
     }
 }
 
+
 // Function to display a question
 function displayQuestion() {
+    shuffleQuestions(questions);
     if (currentQuestionIndex < questions.length) {
         questionContainer.style.display = "block";
 
@@ -134,6 +136,17 @@ function checkAnswer(selectedChoice) {
         gameOverSection.style.display = "block";
     }
 }
+// Function to shuffle the questions array
+function shuffleQuestions(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Shuffle the questions array
+shuffleQuestions(questions);
 
 // Function to play correct sound
 function playCorrectSound() {
