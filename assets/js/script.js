@@ -72,7 +72,7 @@ document.addEventListener("click", function (event) {
         usernameInputContainer.style.display = "block";
     } else if (event.target === returnFromUsernameInputButton) {
         event.preventDefault();
-        toggleButtonsAndElements();
+        toggleButtonsAndElements(); 
     }
 });
 
