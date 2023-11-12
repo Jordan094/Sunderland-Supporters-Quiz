@@ -145,13 +145,13 @@ function checkAnswer(selectedChoice) {
 
     if (currentQuestionIndex < questions.length) {
         const totalScore = correctAnswers;
-        logHighScore(usernameInput.value, totalScore);
         displayQuestion();
     } else {
         const gameOverSection = document.querySelector(".game-over");
         const totalScore = document.getElementById("total-score");
         totalScore.textContent = correctAnswers;
         gameOverSection.style.display = "block";
+        logHighScore(usernameInput.value, totalScore);
     }
 }
 // Function to shuffle the questions array
