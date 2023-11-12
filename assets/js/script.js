@@ -31,6 +31,21 @@ const questions = [
         "question": "Which stadium is the home ground of Sunderland AFC?",
         "options": ["St. James' Park", "Riverside Stadium", "Stadium of Light", "Goodison Park"],
         "correctAnswer": "Stadium of Light"
+    },
+    {
+        "question": "Who is Sunderland AFC's all-time top scorer?",
+        "options": ["Niall Quinn", "Kevin Phillips", "Darren Bent", "Raich Carter"],
+        "correctAnswer": "Kevin Phillips"
+    },
+    {
+        "question": "Which English league is Sunderland AFC currently playing in?",
+        "options": ["Premier League", "Championship", "League One", "League Two"],
+        "correctAnswer": "Championship"
+    },
+    {
+        "question": "Who is the current manager of Sunderland AFC?",
+        "options": ["Sam Allardyce", "Tony Mowbray", "Lee Johnson", "Gus Poyet"],
+        "correctAnswer": "Tony Mowbray"
     }
 ];
 
@@ -74,6 +89,7 @@ function toggleButtonsAndElements() {
 
 // Function to check if the username input is empty
 function checkUsernameInput() {
+    shuffleQuestions(questions);
     const username = usernameInput.value.trim();
 
     if (username === "") {
@@ -87,7 +103,7 @@ function checkUsernameInput() {
 
 // Function to display a question
 function displayQuestion() {
-    shuffleQuestions(questions);
+
     if (currentQuestionIndex < questions.length) {
         questionContainer.style.display = "block";
 
