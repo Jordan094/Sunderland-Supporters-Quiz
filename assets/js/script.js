@@ -144,6 +144,8 @@ function checkAnswer(selectedChoice) {
     currentQuestionIndex++;
 
     if (currentQuestionIndex < questions.length) {
+        const totalScore = correctAnswers;
+        logHighScore(usernameInput.value, totalScore);
         displayQuestion();
     } else {
         const gameOverSection = document.querySelector(".game-over");
@@ -163,6 +165,27 @@ function shuffleQuestions(array) {
 
 // Shuffle the questions array
 shuffleQuestions(questions);
+
+// Function to log high scores
+function logHighScore(username, score) {
+    const highScoresTable = document.getElementById("high-scores-table");
+
+    const newRow = document.createElement("tr");
+
+
+    const usernameCell = document.createElement("td");
+    usernameCell.textContent = username;
+
+    const scoreCell = document.createElement("td");
+    scoreCell.textContent = score;
+
+    // Append cells to the new row
+    newRow.appendChild(usernameCell);
+    newRow.appendChild(scoreCell);
+
+    // Append the new row to the high scores table
+    highScoresTable.appendChild(newRow);
+}
 
 // Function to play correct sound
 function playCorrectSound() {
