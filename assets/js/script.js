@@ -149,7 +149,7 @@ function checkAnswer(selectedChoice) {
         const gameOverSection = document.querySelector(".game-over");
         const totalScore = document.getElementById("total-score");
         totalScore.textContent = correctAnswers;
-        logHighScore(usernameInput.value, totalScore);
+        logHighScore(usernameInput.value, parseInt(totalScore.textContent));
         gameOverSection.style.display = "block";
     }
 }
