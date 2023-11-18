@@ -57,6 +57,16 @@ const questions = [
         "options": ["Newcastle United", "Middlesbrough", "Leeds United", "Sheffield Wednesday"],
         "correctAnswer": "Newcastle United"
     },
+    {
+        "question": "Which manager took Sunderland AFC to the League Cup final in 2014, where they were runners-up to Manchester City?",
+        "options": ["Sam Allardyce", "Roy Keane", "Gus Poyet", "Dick Advocaat"],
+        "correctAnswer": "Gus Poyet"
+    },
+    {
+        "question": "What was the previous name of the Stadium of Light before its renaming in 1997?",
+        "options": ["Roker Park", "Stadium of the North", "Sunderland Stadium", "Sunderland Arena"],
+        "correctAnswer": "Roker Park"
+    },
 ];
 
 let currentQuestionIndex = 0;
