@@ -46,7 +46,17 @@ const questions = [
         "question": "Who is the current manager of Sunderland AFC?",
         "options": ["Sam Allardyce", "Tony Mowbray", "Lee Johnson", "Gus Poyet"],
         "correctAnswer": "Tony Mowbray"
-    }
+    },
+    {
+        "question": "What is the capacity of the Stadium of Light?",
+        "options": ["39,000", "41,000", "53,000", "49,000"],
+        "correctAnswer": "49,000"
+    },
+    {
+        "question": "Sunderland AFC's main rivalry is with which club?",
+        "options": ["Newcastle United", "Middlesbrough", "Leeds United", "Sheffield Wednesday"],
+        "correctAnswer": "Newcastle United"
+    },
 ];
 
 let currentQuestionIndex = 0;
