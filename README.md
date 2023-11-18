@@ -21,6 +21,9 @@
   - [First Time User Goals](#first-time-user-goals)
   - [Frequent User Goals](#frequent-user-goals)
   - [Features To Be Included](#features-to-be-included)
+- [**Design**](#design)
+  - [Colour Pallete](#colour-pallete)
+  - [Typography](#typography)
 
 
 
@@ -56,3 +59,20 @@
 * Highscores page
 * Quick access links to external sites in the footer.
 * 404 page for invalid content with a report a problem form to inform the site owner.
+
+# **Design**
+
+## Colour Pallete
+
+![Sunderland Supporters Quiz Colour Pallette]()
+[Pallette Created Using Coolors.co](https://coolors.co/)
+
+I have chosen the above colour pallette as I wanted to stay true to the colours of the Sunderland AFC team Red being the primary colour and White the secondary. I chose neutral gray colours to make sure there was no clashes. I have also used the Coolors contrast checker to ensure these are suitable.
+
+## Typography
+
+I have chosen the Fira-Sans Font. This is provided by Google Fonts and [can be found here.](https://fonts.google.com/specimen/Fira+Sans)
+
+I have used the regular font weight for standard text and chosen a weight of 600 when adding emphasis such as on the heading and title text.
+
+I have selected sans-serif to be the default font if Firs Sans can not be loaded.
