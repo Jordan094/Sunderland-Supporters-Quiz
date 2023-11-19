@@ -24,6 +24,12 @@
 - [**Design**](#design)
   - [Colour Pallete](#colour-pallete)
   - [Typography](#typography)
+  - [Images Used](#images-used)
+  - [Icons](#icons)
+- [**Structure**](#structure)
+  - [Website Layout](#website-layout)
+  - [Footer](#footer)
+  - [Features](#features)
 
 
 
@@ -76,3 +82,34 @@ I have chosen the Fira-Sans Font. This is provided by Google Fonts and [can be f
 I have used the regular font weight for standard text and chosen a weight of 600 when adding emphasis such as on the heading and title text.
 
 I have selected sans-serif to be the default font if Firs Sans can not be loaded.
+
+## Images Used
+
+Due to the nature of the website and quiz game I have only used one image as a background. Which has been provided by [Sky Sports.](https://www.skysports.com/)
+
+The background image was originally in colour however I changed altered the image in photoshop to black and white to stay true to the colour scheme and avoid clashes that would make parts of the quiz unreadable.
+
+## Icons
+
+I have used fontawesome icons for the volume on and off icons and also the external link icons where are present in the footer.
+
+# **Structure**
+
+## Website Layout
+
+The Website/Quiz has been designed using HTML5, CSS, Javascript and Bootstrap 5 with a mobile first approach
+All the main content of the website and quiz is present on the index.html page. the only other page is the 404 page.
+
+* The website contains a homepage and a 404 page.
+  * Homepage - This is the only page the user will need. The whole quiz game is held in a container on this page a footer at the bottom.
+  * Quiz Section - The quiz section is on the home page. It has been designed to be used on a single page. I will break the sections of the quiz down further on the features section of this document.
+  * 404 Page - A page I do not intend users to find. This page should only be displayed when there is a broken URL.
+
+
+## Footer
+
+![Footer Styles](placeholder)
+The footer for the website is simple and clean and easy for the user to understand. There will be contact icons incase the user has an issue and also a share icon to share the url with friends.
+
+## Features
+
