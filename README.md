@@ -27,9 +27,11 @@
   - [Images Used](#images-used)
   - [Icons](#icons)
 - [**Structure**](#structure)
+  - [Wireframes](#wireframes)
   - [Website Layout](#website-layout)
   - [Footer](#footer)
-  - [Features](#features)
+- [Features](#features)
+  - [Sections](#sections)
 
 
 
@@ -95,6 +97,10 @@ I have used fontawesome icons for the volume on and off icons and also the exter
 
 # **Structure**
 
+## Wireframes
+
+**WIREFRAME PLACEHOLDER**
+
 ## Website Layout
 
 The Website/Quiz has been designed using HTML5, CSS, Javascript and Bootstrap 5 with a mobile first approach
@@ -111,5 +117,11 @@ All the main content of the website and quiz is present on the index.html page. 
 ![Footer Styles](placeholder)
 The footer for the website is simple and clean and easy for the user to understand. There will be contact icons incase the user has an issue and also a share icon to share the url with friends.
 
-## Features
+# Features
 
+## Sections
+
+As the Sunderland Supporters Quiz is on one single page all the sections found on the page need to be activated by the user. As a default. The user has a main menu section which contains 3 buttons. The play game button, the highscores section and lastly the instructions. All 3 sections are set as hidden by default and depending on that button the user presses will activate different menu screens.
+
+__Main Menu Screen__
+![Responsive image placeholder]()
