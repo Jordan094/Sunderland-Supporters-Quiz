@@ -14,6 +14,7 @@ const questionContainer = document.querySelector(".question-container");
 const muteButton = document.getElementById("mute-button");
 const correctSound = document.getElementById("correctSound");
 const wrongSound = document.getElementById("wrongSound");
+const shareButton = document.getElementById('share-button');
 
 // Array of quiz questions and answers
 const questions = [
@@ -256,3 +257,35 @@ function toggleMute() {
         alert("Mute functionality not supported in your browser.");
     }
 }
+
+// Share Button with help from https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the share button element
+    const shareButton = document.getElementById('share-button');
+
+    // Add a click event listener to the share button
+    shareButton.addEventListener('click', function () {
+        // Create a temporary input element
+        const tempInput = document.createElement('input');
+
+        // Set the value of the input to the current URL
+        tempInput.value = window.location.href;
+
+        // Append the input element to the document
+        document.body.appendChild(tempInput);
+
+        // Select the input element's content
+        tempInput.select();
+
+        try {
+            // Attempt to copy the content to the clipboard
+            document.execCommand('copy');
+            alert('URL copied to clipboard: ');
+        } catch (err) {
+            console.error('Unable to copy to clipboard', err);
+            alert('Copy to clipboard failed. Please copy the URL manually.');
+        } finally {
+            document.body.removeChild(tempInput);
+        }
+    });
+});
