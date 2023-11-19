@@ -73,6 +73,26 @@ const questions = [
         "options": ["Steve Bruce", "Sam Allardyce", "Gus Poyet", "Martin O'Neill"],
         "correctAnswer": "Steve Bruce"
     },
+    {
+        "question": "Who scored Sunderland AFC's winning goal in the 1973 FA Cup final against Leeds United?",
+        "options": ["Bob Stokoe", "Billy Hughes", "Ian Porterfield", "Dennis Tueart"],
+        "correctAnswer": "Ian Porterfield"
+    },
+    {
+        "question": "Who is known as 'The King' among Sunderland AFC fans for his legendary status at the club?",
+        "options": ["Charlie Hurley", "Stan Anderson", "Gary Rowell", "Lee Barry Cattermole"],
+        "correctAnswer": "Charlie Hurley"
+    },
+    {
+        "question": "Which player holds the record for the most appearances for Sunderland AFC?",
+        "options": ["Len Shackleton", "Gary Bennett", "Jimmy Montgomery", "Jim Baxter"],
+        "correctAnswer": "Jimmy Montgomery"
+    },
+    {
+        "question": "Which manager led Sunderland AFC to their famous 'Great Escape' from relegation in the 2013-2014 Premier League season?",
+        "options": ["Steve Bruce", "Gus Poyet", "Dick Advocaat", "Roy Keane"],
+        "correctAnswer": "Gus Poyet"
+    },
 ];
 
 let currentQuestionIndex = 0;
