@@ -68,6 +68,11 @@ const questions = [
         "options": ["Roker Park", "Stadium of the North", "Sunderland Stadium", "Sunderland Arena"],
         "correctAnswer": "Roker Park"
     },
+    {
+        "question": "Which manager succeeded Roy Keane as the manager of Sunderland AFC in 2009?",
+        "options": ["Steve Bruce", "Sam Allardyce", "Gus Poyet", "Martin O'Neill"],
+        "correctAnswer": "Steve Bruce"
+    },
 ];
 
 let currentQuestionIndex = 0;
