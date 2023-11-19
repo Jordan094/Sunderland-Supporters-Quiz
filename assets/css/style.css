@@ -206,36 +206,21 @@ h2 {
     font-size: 24px;
 }
 
-/*---Footer Stying--*/
-.container {
-    padding-left: 2.5%;
-    margin: 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-footer.footer {
-    background-color: #212529;
+/* Footer Stying */
+.footer {
+    background-color: #333;
     color: white;
-}
-
-.footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .contact-icon {
+    color:#fff ;
+    padding: 10px;
     font-size: 25px;
-    color: white;
-}
-
-.contact-icon:hover {
-    color: #dc3545;
-}
-
-footer {
-    margin-top: auto;
 }
 
 /* Media queries for larger devices */
