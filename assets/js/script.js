@@ -93,6 +93,31 @@ const questions = [
         "options": ["Steve Bruce", "Gus Poyet", "Dick Advocaat", "Roy Keane"],
         "correctAnswer": "Gus Poyet"
     },
+    {
+        "question": "Which country is Jordan Henderson, a former Sunderland AFC player and current Liverpool captain, from?",
+        "options": ["Wales", "Ireland", "Scotland", "England"],
+        "correctAnswer": "England"
+    },
+    {
+        "question": "How many times has Sunderland AFC won the FA Cup?",
+        "options": ["1", "2", "3", "4"],
+        "correctAnswer": "2"
+    },
+    {
+        "question": "What year did Sunderland AFC win their first top-flight league title?",
+        "options": ["1935", "1954", "1973", "1990"],
+        "correctAnswer": "1935"
+    },
+    {
+        "question": "What rank is Sunderland AFCs  highest-ever Premier League finish?",
+        "options": ["7th", "8th", "9th", "10th"],
+        "correctAnswer": "7th"
+    },
+    {
+        "question": "Who is Sunderland AFC's all-time top scorer?",
+        "options": ["Kevin Phillips", "Niall Quinn", "Darren Bent", "Ross Stewart"],
+        "correctAnswer": "Kevin Phillips"
+    },
 ];
 
 let currentQuestionIndex = 0;
