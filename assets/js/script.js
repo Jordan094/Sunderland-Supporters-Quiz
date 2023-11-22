@@ -114,9 +114,9 @@ const questions = [
         "correctAnswer": "7th"
     },
     {
-        "question": "Who is Sunderland AFC's all-time top scorer?",
-        "options": ["Kevin Phillips", "Niall Quinn", "Darren Bent", "Ross Stewart"],
-        "correctAnswer": "Kevin Phillips"
+        "question": "The 2003/04 season saw Sunderland lose on penalties in the play-off semi-finals against which club?",
+        "options": ["Newcastle United", "Fulham", "Leeds United", "Crystal Palace"],
+        "correctAnswer": "Crystal Palace"
     },
 ];
 
