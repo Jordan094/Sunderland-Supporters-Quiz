@@ -205,7 +205,31 @@ h2 {
     color: #fff;
     font-size: 24px;
 }
+.box.username-input {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+/* Style for the heading "Enter Your Username" */
+.box.username-input h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Style for the text input */
+.box.username-input input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 /* Footer Stying */
 .footer {
     background-color: #333;
