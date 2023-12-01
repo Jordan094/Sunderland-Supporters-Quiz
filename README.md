@@ -129,4 +129,8 @@ This is the first screen that the user will see when visting the URL. The user w
 
 __Instructions Screen__
 ![Responsive image placeholder]()
-Although new users will b
+The instructions section is at the bottom of the menu screen. The rationale behind this choice of placement is that although new users will likely visit that section first. Returning users will have little to no use for that menu screen. The layout is very simple and to the point and clearly explains to the user how the game is played and how their scores will be calculated.
+
+**Instructions Screen**
+![Responsive image placeholder]()
+The instructions section is at the bottom of the menu screen. The rationale behind this choice of placement is that although new users will likely visit that section first. Returning users will have little to no use for that menu screen. The layout is very simple and to the point and clearly explains to the user how the game is played and how their scores will be calculated.
