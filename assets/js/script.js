@@ -240,9 +240,10 @@ shuffleQuestions(questions);
 function logHighScore(username, score) {
     const highScoresTable = document.getElementById("high-scores-table");
 
+    // Create a new row for the high score
     const newRow = document.createElement("tr");
 
-
+    // Create cells for username and score
     const usernameCell = document.createElement("td");
     usernameCell.textContent = username;
 
@@ -253,8 +254,25 @@ function logHighScore(username, score) {
     newRow.appendChild(usernameCell);
     newRow.appendChild(scoreCell);
 
-    // Append the new row to the high scores table
-    highScoresTable.appendChild(newRow);
+    // Insert the new row at the correct position based on the score
+    insertAtCorrectPosition(highScoresTable, newRow);
+}
+
+// Function to insert a new row at the correct position in the table
+function insertAtCorrectPosition(table, newRow) {
+    const rows = table.getElementsByTagName('tr');
+
+    for (let i = 1; i < rows.length; i++) {
+        const currentScore = parseInt(rows[i].getElementsByTagName('td')[1].textContent, 10);
+
+        if (currentScore < parseInt(newRow.getElementsByTagName('td')[1].textContent, 10)) {
+            table.insertBefore(newRow, rows[i]);
+            return;
+        }
+    }
+
+    // If the new score is the lowest, append it at the end
+    table.appendChild(newRow);
 }
 
 // Function to play correct sound
