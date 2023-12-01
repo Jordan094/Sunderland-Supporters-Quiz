@@ -32,6 +32,13 @@
   - [Footer](#footer)
 - [Features](#features)
   - [Sections](#sections)
+- [**Technologies Used**](#technologies-used)
+- [**Accessibility**](#accessibility)
+- [**Deployment \& Local Development**](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
 
 
 
@@ -146,3 +153,73 @@ When the user inputs a username and presses start game the quiz will begin. The 
 Once the quiz is complete the user will be given imediate feedback as to how many questions out of the total 20 they got correct. The users score will also be logged to the highscores at this point and the user will be thanked for playing.
 
 There will only be 1 choice and that is for the user to return to the main menu screen.
+
+# **Technologies Used**
+
+* [HTML5](https://www.w3schools.com/html/html_intro.asp)
+  * HTML was used to create my quiz
+* [CSS3](https://www.w3schools.com/css/css_intro.asp)
+  * CSS was used to style my quiz
+* [Javascript]
+  * Javascript was used to add functionality to my quiz
+* [GitHub](https://github.com/)
+  * I used github to create my repository and store my projects code.
+* [Code Anywhere](https://app.codeanywhere.com/)
+  * I used Code Anywhere as my IDE
+* [Chrome](https://www.google.com/intl/en_uk/chrome/)
+  * I tested my website and responsiveness throught creation using chrome developer tools.
+* [Balsamiq](https://balsamiq.com/)
+  * Balsamiq was used to create the wireframes during the design process.
+* [Google Fonts](https://fonts.google.com/)
+  * I used the font Fira Sans which is a Google font, with a fallback font of Sans-Serif thoughout my whole project.
+* [Am I Responsive?](https://ui.dev/amiresponsive)
+  * This was used to test the responsiveness on all devices once the pages were complete.
+* [W3 Schools HTML Validation Service](https://validator.w3.org/)
+  * This was used to check for any HTML errors in the code.
+* [W3 Schools CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+  * This was used to check for any HTML errors in the code.
+
+
+# **Accessibility**
+
+I wanted to ensure that the website was fully accessible. I have done this by doing the following:
+
+* Providing Alternative Text (Alt Text)
+  * I've made sure to add descriptive alternative text (alt text) to all images on the website. Alt text adds context to images, enabling users who rely on screen readers to understand the visual content even if they can't see it.
+* Ensuring Color Contrast
+  * I've chosen color combinations that maintain accessible contrast ratios, ensuring that text remains readable against different background colors. This benefits users with visual impairments or color blindness.
+* Responsive Design
+  * The site is designed to adapt to various devices and screen sizes. This caters to users who rely on different devices or have specific accessibility requirements.
+
+# **Deployment & Local Development**
+
+## Deployment
+
+The Sunderland Supporters Quiz was made live through GitHub. This is how to deploy the Sunderland Supporters Quiz again:
+
+1. Log in to your GitHub account or sign up if you don't have one.
+2. Locate the project's repository Jordan094/Sunderland-Supporters-Quiz.
+3. Click on the "Settings" link in the repository menu.
+4. Navigate to the "Pages" section on the left-hand side.
+5. Under the "Source" section, choose "main" from the branch dropdown menu and "Root" from the folder dropdown menu.
+6. Click Save. Your live GitHub Pages site is now deployed at the URL shown.
+
+## Local Development
+
+### How to Fork
+
+To fork the Sunderland Supporters Quiz repository:
+
+1. Log in to your GitHub account or sign up if you don't have one.
+2. Visit the repository at Jordan094/Sunderland-Supporters-Quiz.
+3. Click the "Fork" button located at the top right corner.
+
+### How to Clone
+
+To clone the Sunderland Supporters Quiz repository:
+
+1. Log in to your GitHub account or sign up if you don't have one..
+2. Go to the repository for this project, Jordan094/Sunderland-Supporters-Quiz.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
