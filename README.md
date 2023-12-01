@@ -121,7 +121,12 @@ The footer for the website is simple and clean and easy for the user to understa
 
 ## Sections
 
-As the Sunderland Supporters Quiz is on one single page all the sections found on the page need to be activated by the user. As a default. The user has a main menu section which contains 3 buttons. The play game button, the highscores section and lastly the instructions. All 3 sections are set as hidden by default and depending on that button the user presses will activate different menu screens.
+As the Sunderland Supporters Quiz is on one single page all the sections found on the page need to be activated by the user. As a default. Depending on the choice of the user. Certain functions will be ran that show the user different parts of the quiz.
 
 __Main Menu Screen__
 ![Responsive image placeholder]()
+This is the first screen that the user will see when visting the URL. The user will have a choice of three menu selections: The play game, highscores and lastly the instructions. There will also be a mute button which is constantly present.
+
+__Instructions Screen__
+![Responsive image placeholder]()
+Although new users will b
