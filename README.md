@@ -131,8 +131,10 @@ __Instructions Section__
 ![Responsive image placeholder]()
 The instructions section is at the bottom of the menu screen. The rationale behind this choice of placement is that although new users will likely visit that section first. Returning users will have little to no use for that menu screen. The layout is very simple and to the point and clearly explains to the user how the game is played and how their scores will be calculated.
 
-**Highscores Section**
+___Highscores Section__
 ![Responsive image placeholder]()
 The highscores section is the middle choice on the menu selection screen. The rationale behind this choice of placement is that after the user has played and completed a game they will be curious to how their score competes with other players. The highscores itself is a simple table which shows the username of the play and the score they recieved it is displayed with the highest score at the top and the lowest at the bottom. To keep in theme with the Sunderland AFC colours I have made the table display in red and white.
 
-
+__Play Game Button/Enter Username__
+![Responsive image placeholder]()
+The play game button takes the user to a simple username input screen. The user is then presented with 2 options. Start the game or return to the main menu.
