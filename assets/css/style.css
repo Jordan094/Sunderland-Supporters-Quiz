@@ -253,6 +253,9 @@ h2 {
     padding: 10px;
     font-size: 25px;
 }
+.contact-icon:hover {
+    color: #dc3545;
+}
 
 .notfound-text {
     margin-left: 5%;
