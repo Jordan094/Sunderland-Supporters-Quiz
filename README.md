@@ -38,6 +38,7 @@
     - [Enter Username](#enter-username)
     - [Play Game (The Quiz Itself)](#play-game-the-quiz-itself)
     - [Game Complete](#game-complete)
+    - [404 Page](#404-page)
 - [**Technologies Used**](#technologies-used)
 - [**Accessibility**](#accessibility)
 - [**Deployment \& Local Development**](#deployment--local-development)
@@ -85,7 +86,7 @@
 
 ## Colour Pallete
 
-![Sunderland Supporters Quiz Colour Pallette]()
+![Sunderland Supporters Quiz Colour Pallette](/assets/readme-files/design/pallette.png)
 [Pallette Created Using Coolors.co](https://coolors.co/)
 
 I have chosen the above colour pallette as I wanted to stay true to the colours of the Sunderland AFC team Red being the primary colour and White the secondary. I chose neutral gray colours to make sure there was no clashes. I have also used the Coolors contrast checker to ensure these are suitable.
@@ -183,6 +184,10 @@ When the user inputs a username and presses start game the quiz will begin. The 
 Once the quiz is complete the user will be given imediate feedback as to how many questions out of the total 20 they got correct. The users score will also be logged to the highscores at this point and the user will be thanked for playing.
 
 There will only be 1 choice and that is for the user to return to the main menu screen.
+
+### 404 Page
+![Responsive image](/assets/readme-files/design/Responsive_404_Screen.png)
+This is the only page other than the index page. I do not intend for users to ever reach this page. I have taken away all of the backgrounds and added a simple page not found text.
 
 # **Technologies Used**
 
