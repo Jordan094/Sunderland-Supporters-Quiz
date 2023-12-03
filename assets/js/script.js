@@ -296,7 +296,7 @@ returnToMainMenuButton.addEventListener("click", () => {
     toggleButtonsAndElements();
 });
 
-// Event listener for the mute button
+// Event listener for the mute button with help from https://developer.mozilla.org/
 muteButton.addEventListener("click", toggleMute);
 
 // Function to toggle mute/unmute state

@@ -66,6 +66,9 @@
     - [Frequent User Goals](#frequent-user-goals-1)
   - [Validation and Tools](#validation-and-tools)
     - [W3C Validation Tools](#w3c-validation-tools)
+  - [Code](#code)
+  - [Content and Imagery](#content-and-imagery)
+- [**Acknowledgements**](#acknowledgements)
 
 
 
@@ -473,3 +476,45 @@ The following errors were encountered with Javascript:
 I had 48 'const' is available in ES6 warnings. But this did not effect functionality.
 
 I have 1 variable which I declared but never used so that was removed from the code.
+
+## Code
+
+* [Code Institute's Level 5 in Web Application Development course](https://codeinstitute.net/) for providing me lessons and source code which has helped to create my website.
+  
+*  [Mozilla MDN Javascript Developer Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for guidance which assisted me writing my mute button function and my share button function.
+  
+* [Code Anywhere](https://app.codeanywhere.com/) for providing me with an IDE to build my website on.
+
+* [BOOTSTRAP 5](https://getbootstrap.com/) which has enabled me to create my website in a responsive manner. My responsive Nav Bar. My sections which include my Hero Image and Footer are some examples of where Bootstrap is present on my website.
+
+* [W3Schools](https://www.w3schools.com/) for providing examples of code for further customisation of my site and quick help for HTML elements.
+
+* [Fontawesome](https://fontawesome.com/) for providing me with icons which I have used ony my footer.
+
+
+## Content and Imagery
+
+* [Sunderland AFC Official Club Page](SAFC.com) for providing me with a number of different resources which includes:
+  * Club knowledge to create my questions
+  * 
+  
+* [SkySports](https://www.skysports.com/) for the hero image.
+
+
+# **Acknowledgements**
+
+* Thank you to [Code Institute](https://codeinstitute.net/) staff for providing me lessons.
+  
+* Thank you to [City of Bristol College](https://www.cityofbristol.ac.uk/) for facilitating my learning.
+
+* Thank you to Pasquale Fasulo for my tutoring sessions and [Manuel Perez Romero](https://github.com/Manuperezro) for my one to one session.
+  
+* Thank you to [Marcel Mulders](https://code-institute-room.slack.com/team/U01RGQ4HANL) for my Mentoring Sessions.
+
+* Thank you to [Daniel Matthews](https://github.com/Dan-Matthews-23) for support offered and also for testing.
+
+* Thank you to Levi Webb for providing android testing and laptop testing.
+
+* Thank you to Lewis Glass for Android testing on an OPPO Device (Narrow Screen).
+  
+* Thank you to Josh Ainsley for iOS testing.
