@@ -49,6 +49,8 @@
 - [**Testing**](#testing)
   - [Site Wide Testing](#site-wide-testing)
     - [Background](#background-1)
+    - [Game Container](#game-container)
+    - [Footer](#footer-1)
 
 
 
@@ -279,3 +281,21 @@ Below is an overview of my testing and tests were carried out on the following d
 ### Background
 
 Expectation: Respond to device in which it is displayed on. Only show on index page and not 404 page. Result: Passed all tests.
+
+### Game Container
+
+Expectation: All of the quiz is to be displayed and played inside the one single game container, the container needs to respond to the device which it is displayed on, no content to overlap or strech the quiz border. Result: Passed all tests.
+
+### Footer
+
+Expection: Respond to device in which it is displayed on. Show 4 icons which are a home button, a email contact button a phone contact button and a share button. The thickness of the footer to scale in line with the device it is displayed on also. Result: Passed all tests.
+
+Further Footer testing:
+
+* **Home Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, hyperlink to index page, displays in Red when hovered over. Result: Passed all tests.
+
+* **Phone Contact Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, hyperlink to call a contact number, displays in Red when hovered over. Result: Passed all tests.
+
+* **Email Contact Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, hyperlink to send an email, displays in Red when hovered over. Result: Passed all tests.
+
+* **Share Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, when pressed a copies URL to clipboard and a java popup alerts the user what has happened, displays in Red when hovered over. Result: Passed all tests.
