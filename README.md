@@ -84,7 +84,6 @@
 * To easily play the game on any device they chose.
 * To understand the purpose of the website and what is on offer to them as a user.
 * To see contact details to reach the website owner.
-* To have access to links to visit extenal pages such as the official clubs website.
 * Be able to view the instructions of how to play the game
 
 ## Frequent User Goals
@@ -432,3 +431,7 @@ Result: All testing passed.
 
     - The name of the website is a simple explanation of what the actual content is going to be
     - The instructions provide a further insight.
+
+**As a first time user, I want to be able to view the instructions of how to play the game**
+
+    - The games main menu screen contains a comprehensive set of instructions of how to play the game and how the users score will be calculated.
