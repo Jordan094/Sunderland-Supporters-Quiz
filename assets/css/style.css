@@ -11,7 +11,7 @@ button {
 }
 
 /* Main body styles */
-body {
+.body-index {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -248,6 +248,42 @@ h2 {
     font-size: 25px;
 }
 
+.notfound-text {
+    margin-left: 5%;
+    color: black;
+    font-family: 'Fira Sans';
+}
+
+.notfound-heading {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: black;
+    font-family: 'Fira Sans';
+}
+
+.notfound-menu-button {
+    font-family: 'Fira Sans';
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    width: 85%;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.notfound-menu-button:hover {
+    margin-left: 5%;
+    width: 85%;
+    background-color: #212529;
+    color: #fff;
+    border: none;
+}
 /* Media queries for larger devices */
 @media (max-width: 1152px) {
     .quiz-container {
@@ -290,7 +326,11 @@ h2 {
         padding: 15px;
     }
 }
+/*404  Styling*/
+.not-found {
+    background-color: white;
 
+}
 /* Media queries for smaller devices such as phones */
 @media (max-width: 480px) {
     body {
