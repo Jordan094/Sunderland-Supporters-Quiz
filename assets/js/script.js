@@ -14,7 +14,6 @@ const questionContainer = document.querySelector(".question-container");
 const muteButton = document.getElementById("mute-button");
 const correctSound = document.getElementById("correctSound");
 const wrongSound = document.getElementById("wrongSound");
-const shareButton = document.getElementById('share-button');
 
 // Array of quiz questions and answers
 const questions = [
@@ -133,7 +132,6 @@ document.addEventListener("click", function (event) {
         event.preventDefault();
         toggleButtonsAndElements();
         highScoresTable.style.display = "block";
-        populateHighScoresTable();
     } else if (event.target === returnFromInstructionsButton || event.target === returnFromHighScoresButton) {
         event.preventDefault();
         toggleButtonsAndElements();

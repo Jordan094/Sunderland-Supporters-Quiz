@@ -64,6 +64,8 @@
   - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
     - [First Time User Goals](#first-time-user-goals-1)
     - [Frequent User Goals](#frequent-user-goals-1)
+  - [Validation and Tools](#validation-and-tools)
+    - [W3C Validation Tools](#w3c-validation-tools)
 
 
 
@@ -455,3 +457,17 @@ Result: All testing passed.
 **As a frequent user, I want to Be able to contact the owner if needed or access social media pages from the footer.**
 
     - The email and phone icons in the footer allow the user to contact the website owner if needed.
+
+## Validation and Tools
+
+### W3C Validation Tools
+
+Once my pages were complete I used [W3C Markup Validation Service](https://validator.w3.org/) to ensure my HTML code had no errors.
+
+I also used [W3C Jigsaw Validation Service](https://jigsaw.w3.org/css-validator/) to ensure my CSS code had no errors.
+
+Lastly I used [JSHint](https://jshint.com/) to validate my JavaScript.
+
+The following errors were encountered:
+
+I had 48 warnings 
