@@ -159,27 +159,27 @@ The footer for the website is simple and clean and easy for the user to understa
 As the Sunderland Supporters Quiz is on one single page all the sections found on the page need to be activated by the user. As a default. Depending on the choice of the user. Certain functions will be ran that show the user different parts of the quiz.
 
 ### Main Menu Screen
-![Responsive image placeholder](/assets/readme-files/design/Responsive_Menu_Screen.png)
+![Responsive image](/assets/readme-files/design/Responsive_Menu_Screen.png)
 This is the first screen that the user will see when visting the URL. The user will have a choice of three menu selections: The play game, highscores and lastly the instructions. There will also be a mute button which is constantly present.
 
 ### Instructions Section
-![Responsive image placeholder](/assets/readme-files/design/Responsive_Instructions_Screen.png)
+![Responsive image](/assets/readme-files/design/Responsive_Instructions_Screen.png)
 The instructions section is at the bottom of the menu screen. The rationale behind this choice of placement is that although new users will likely visit that section first. Returning users will have little to no use for that menu screen. The layout is very simple and to the point and clearly explains to the user how the game is played and how their scores will be calculated.
 
 ### Highscores Section
-![Responsive image placeholder](/assets/readme-files/design/Responsive_Scores_Screen.png)
+![Responsive image](/assets/readme-files/design/Responsive_Scores_Screen.png)
 The highscores section is the middle choice on the menu selection screen. The rationale behind this choice of placement is that after the user has played and completed a game they will be curious to how their score competes with other players. The highscores itself is a simple table which shows the username of the play and the score they recieved it is displayed with the highest score at the top and the lowest at the bottom. To keep in theme with the Sunderland AFC colours I have made the table display in red and white.
 
 ### Enter Username
-![Responsive image placeholder](/assets/readme-files/design/Responsive_Username_Screen.png)
+![Responsive image](/assets/readme-files/design/Responsive_Username_Screen.png)
 The play game button takes the user to a simple username input screen. The user is then presented with 2 options. Start the game or return to the main menu. The name field is a required input and the user will need to input a username or the game will not let them continue.
 
 ### Play Game (The Quiz Itself)
-![Responsive image placeholder](/assets/readme-files/design/Responsive_Game_Screen.png)
+![Responsive image](/assets/readme-files/design/Responsive_Game_Screen.png)
 When the user inputs a username and presses start game the quiz will begin. The user will be presented with a total of 20 questions. The questions all have a total of 4 possible answers, only 1 will be correct. The user will be given an audible feedback if the answered the selected is correct or incorrect. The correct noise is a positive chime. The incorrect answer plays a thud sound. The user will be presented with a total of 20 questions to complete the quiz. The questions will be displayed in a random order.
 
 ### Game Complete (The Quiz Itself)
-![Responsive image placeholder](/assets/readme-files/design/Responsive_Complete_Screen.png)
+![Responsive image](/assets/readme-files/design/Responsive_Complete_Screen.png)
 Once the quiz is complete the user will be given imediate feedback as to how many questions out of the total 20 they got correct. The users score will also be logged to the highscores at this point and the user will be thanked for playing.
 
 There will only be 1 choice and that is for the user to return to the main menu screen.
