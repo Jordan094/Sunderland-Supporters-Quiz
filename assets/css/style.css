@@ -242,8 +242,14 @@ h2 {
     width: 100%;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact-icon {
-    color:#fff ;
+    color: #fff;
     padding: 10px;
     font-size: 25px;
 }
