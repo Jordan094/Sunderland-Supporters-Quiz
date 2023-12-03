@@ -51,6 +51,7 @@
     - [Background](#background-1)
     - [Game Container](#game-container)
     - [Footer](#footer-1)
+    - [Mute Button](#mute-button)
   - [Game Testing](#game-testing)
     - [Main Menu](#main-menu)
     - [Main Menu Button Testing](#main-menu-button-testing)
@@ -305,6 +306,10 @@ Further Footer testing:
 * **Email Contact Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, hyperlink to send an email, displays in Red when hovered over. Result: Passed all tests.
 
 * **Share Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, when pressed a copies URL to clipboard and a java popup alerts the user what has happened, displays in Red when hovered over. Result: Passed all tests.
+
+### Mute Button
+
+Expectation: Present always inside of the game container. Small button that is read and has a volume loud icon when sound is on and when pressed sound to be disabled, the button the change to grey and the icon to change to a mute icon. Result: Passed all tests.
 
 ## Game Testing
 
