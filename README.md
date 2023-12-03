@@ -468,6 +468,8 @@ I also used [W3C Jigsaw Validation Service](https://jigsaw.w3.org/css-validator/
 
 Lastly I used [JSHint](https://jshint.com/) to validate my JavaScript.
 
-The following errors were encountered:
+The following errors were encountered with Javascript:
 
-I had 48 warnings 
+I had 48 'const' is available in ES6 warnings. But this did not effect functionality.
+
+I have 1 variable which I declared but never used so that was removed from the code.
