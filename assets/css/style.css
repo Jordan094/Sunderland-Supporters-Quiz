@@ -107,6 +107,7 @@ h2 {
 
 /* Styling for mute buttons*/
 .mute-menu-button {
+    font-family: 'Fira Sans';
     padding: 2.5%;
     margin-top: 5%;
     border: none;
