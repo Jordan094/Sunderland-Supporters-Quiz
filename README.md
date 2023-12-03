@@ -27,11 +27,16 @@
   - [Images Used](#images-used)
   - [Icons](#icons)
 - [**Structure**](#structure)
-  - [Wireframes](#wireframes)
+- [**Wireframes**](#wireframes)
   - [Website Layout](#website-layout)
   - [Footer](#footer)
 - [Features](#features)
   - [Sections](#sections)
+    - [Main Menu Screen](#main-menu-screen)
+    - [Instructions Section](#instructions-section)
+    - [Highscores Section](#highscores-section)
+    - [Enter Username](#enter-username)
+    - [Play Game (The Quiz Itself)](#play-game-the-quiz-itself)
 - [**Technologies Used**](#technologies-used)
 - [**Accessibility**](#accessibility)
 - [**Deployment \& Local Development**](#deployment--local-development)
@@ -104,9 +109,31 @@ I have used fontawesome icons for the volume on and off icons and also the exter
 
 # **Structure**
 
-## Wireframes
+# **Wireframes**
 
-**WIREFRAME PLACEHOLDER**
+Here are all of the wireframes designed for this page broken down into device level. I desgined these wireframes with mobile first in mind and due to the nature of the site and the size of the content there was no changes needed to be made in terms of content displayed so I have combined my mobile and tablet wireframes into one.
+
+* Main Menu
+  * [Main Menu mobile and tablet wireframe](/assets/readme-files/wireframes/Quiz_Main_Menu_Tablet_Mobile.png)
+  * [Main Menu desktop wireframe](/assets/readme-files/wireframes/Quiz_Main_Menu_Desktop.png)
+* Highscores
+  * [Highscores mobile and tablet wireframe](/assets/readme-files/wireframes/Quiz_Hiscores_Tablet_Mobile.png)
+  * [Highscores desktop wireframe](/assets/readme-files/wireframes/Quiz_Hiscores_Desktop.png)
+* Instructions
+  * [Instructions mobile and tablet wireframe](/assets/readme-files/wireframes/Quiz_Instructions_Tablet_Mobile.png)
+  * [Instructions desktop wireframe](/assets/readme-files/wireframes/Quiz_Instructions_Desktop.png)
+* Username Selection
+  * [Username Selection mobile and tablet wireframe](/assets/readme-files/wireframes/Quiz_Username_Tablet_Mobile.png)
+  * [Username Selection desktop wireframe](/assets/readme-files/wireframes/Quiz_Username_Desktop.png)
+* Main Game Screen
+  * [Main Game mobile and tablet wireframe](/assets/readme-files/wireframes/Quiz_Game_Screen%20_Tablet_Mobile.png)
+  * [Main Game desktop wireframe](/assets/readme-files/wireframes/Quiz_Game_Screen_Desktop.png)
+* Game Complete
+  * [Game Complete mobile and tablet wireframe](/assets/readme-files/wireframes/Quiz_Game_Finished%20_Tablet_Mobile.png)
+  * [Game Complete desktop wireframe](/assets/readme-files/wireframes/Quiz_%20Game_Finished_Desktop.png)
+* * 404 Page
+  * [404 Page mobile and tablet wireframe]()
+  * [404 Page desktop wireframe]()
 
 ## Website Layout
 
