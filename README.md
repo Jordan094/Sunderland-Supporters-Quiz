@@ -37,7 +37,7 @@
     - [Highscores Section](#highscores-section)
     - [Enter Username](#enter-username)
     - [Play Game (The Quiz Itself)](#play-game-the-quiz-itself)
-    - [Game Complete (The Quiz Itself)](#game-complete-the-quiz-itself)
+    - [Game Complete](#game-complete)
 - [**Technologies Used**](#technologies-used)
 - [**Accessibility**](#accessibility)
 - [**Deployment \& Local Development**](#deployment--local-development)
@@ -178,7 +178,7 @@ The play game button takes the user to a simple username input screen. The user 
 ![Responsive image](/assets/readme-files/design/Responsive_Game_Screen.png)
 When the user inputs a username and presses start game the quiz will begin. The user will be presented with a total of 20 questions. The questions all have a total of 4 possible answers, only 1 will be correct. The user will be given an audible feedback if the answered the selected is correct or incorrect. The correct noise is a positive chime. The incorrect answer plays a thud sound. The user will be presented with a total of 20 questions to complete the quiz. The questions will be displayed in a random order.
 
-### Game Complete (The Quiz Itself)
+### Game Complete
 ![Responsive image](/assets/readme-files/design/Responsive_Complete_Screen.png)
 Once the quiz is complete the user will be given imediate feedback as to how many questions out of the total 20 they got correct. The users score will also be logged to the highscores at this point and the user will be thanked for playing.
 
