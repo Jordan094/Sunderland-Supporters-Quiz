@@ -51,6 +51,12 @@
     - [Background](#background-1)
     - [Game Container](#game-container)
     - [Footer](#footer-1)
+  - [Game Testing](#game-testing)
+    - [Main Menu](#main-menu)
+    - [Main Menu Button Testing](#main-menu-button-testing)
+    - [Instructions Section](#instructions-section-1)
+    - [Highscores Section](#highscores-section-1)
+    - [Username Input Section](#username-input-section)
 
 
 
@@ -299,3 +305,55 @@ Further Footer testing:
 * **Email Contact Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, hyperlink to send an email, displays in Red when hovered over. Result: Passed all tests.
 
 * **Share Button** Expectation: Font-awesome Icon in white. Displayed on right side of screen, when pressed a copies URL to clipboard and a java popup alerts the user what has happened, displays in Red when hovered over. Result: Passed all tests.
+
+## Game Testing
+
+### Main Menu
+
+* Expectations:
+  * Display Main Game Container in the center of the page.
+  * Display a responsive footer at the bottom of the page.
+  * Dispay the main menu of the game and the 3 sections, Start Game, highscores and instructions.
+  * Display a small mute button with a sound on icon at the bottom of the container in red which turns grey and changes to a sound muted icon when pressed.
+  * Display footer at the bottom of the page
+
+Result: All main menu testing passed.
+
+### Main Menu Button Testing
+
+* Expectations:
+  * 4 buttons to be displayed Play Game, Highscores, Instructions and Mute.
+  * Play game button when pressed will hide the highscores button and intstructions button. Volume button to remain.
+  * User will be taken to username input screen.
+
+Result: All main menu button testing passed.
+
+### Instructions Section
+
+* Expectations:
+  * Instrcutions button when pressed will hide the highscores button and play button button. Volume button to remain.
+  * User will be presented with a list of instructions on how to play the game.
+  * Main menu button will be present at bottom of container.
+
+Result: All Instructions testing passed.
+
+### Highscores Section
+
+* Expectations:
+  * Highscores button when pressed will hide the highscores button and play button button. Volume button to remain.
+  * Empty highscores table to be shown if no data held.
+  * Once a user completes a game their name and score should be logged to the highscores.
+  * Highscores to be held for future use
+  * Main menu button will be present at bottom of container.
+
+Result: 1 test failed.
+Highscores are logged to the highscores table but the data is lost after page refresh or closure. Fix to be implemented in future revisions.
+
+### Username Input Section
+
+* Expectations:
+  * Text input box to be shown and a prompt to enter username will be shown.
+  * Start game button underneath text input box and also a button to return to main menu.
+  * Validation to make sure that a username is entered and not left blank before continuing.
+
+Result: All testing passed.
