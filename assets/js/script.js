@@ -25,8 +25,8 @@ const questions = [
     },
     {
         "question": "What is the nickname of Sunderland AFC?",
-        "options": ["The Villagers", "The Lads", "The Hammers", "The Canaries"],
-        "correctAnswer": "The Lads"
+        "options": ["The Villagers", "The Black Cats", "The Hammers", "The Canaries"],
+        "correctAnswer": "The Black Cats"
     },
     {
         "question": "Which stadium is the home ground of Sunderland AFC?",
