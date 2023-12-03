@@ -46,6 +46,9 @@
   - [Local Development](#local-development)
     - [How to Fork](#how-to-fork)
     - [How to Clone](#how-to-clone)
+- [**Testing**](#testing)
+  - [Site Wide Testing](#site-wide-testing)
+    - [Background](#background-1)
 
 
 
@@ -134,7 +137,7 @@ Here are all of the wireframes designed for this page broken down into device le
 * Game Complete
   * [Game Complete mobile and tablet wireframe](/assets/readme-files/wireframes/Quiz_Game_Finished%20_Tablet_Mobile.png)
   * [Game Complete desktop wireframe](/assets/readme-files/wireframes/Quiz_%20Game_Finished_Desktop.png)
-* * 404 Page
+* 404 Page
   * [404 Page mobile and tablet wireframe]()
   * [404 Page desktop wireframe]()
 
@@ -259,3 +262,20 @@ To clone the Sunderland Supporters Quiz repository:
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+# **Testing**
+
+I performed manual testing all through the creation of my website. I would test to ensure full functionaility is present across all devices before committing any changes.
+
+Below is an overview of my testing and tests were carried out on the following devices:
+
+* Samsung Galaxy S22 Ultra
+* Samsung Galaxy Tab
+* ASUS Chromebook with 15.3" Screen
+* Windows 11 desktop computer with a 27" Monitor
+
+## Site Wide Testing
+
+### Background
+
+Expectation: Respond to device in which it is displayed on. Only show on index page and not 404 page. Result: Passed all tests.
