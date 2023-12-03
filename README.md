@@ -190,7 +190,7 @@ There will only be 1 choice and that is for the user to return to the main menu 
   * HTML was used to create my quiz
 * [CSS3](https://www.w3schools.com/css/css_intro.asp)
   * CSS was used to style my quiz
-* [Javascript]
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
   * Javascript was used to add functionality to my quiz
 * [GitHub](https://github.com/)
   * I used github to create my repository and store my projects code.
