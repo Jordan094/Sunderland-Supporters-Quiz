@@ -15,10 +15,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     </head>
 <!-- Main container for the quiz -->
-<!-- Audio elements for correct and wrong sounds -->
-<audio id="correctSound" src="assets/sounds/correct.mp3"></audio>
-<audio id="wrongSound" src="assets/sounds/wrong.mp3"></audio>
-<body cbody-index">
+<body>
+    <!-- Audio elements for correct and wrong sounds -->
+    <audio id="correctSound" src="assets/sounds/correct.mp3"></audio>
+    <audio id="wrongSound" src="assets/sounds/wrong.mp3"></audio>
     <div class="quiz-container">
         <h1>Sunderland Supporters Quiz</h1>
         <!-- Three menu buttons for different sections -->
@@ -33,9 +33,9 @@
         </div>
         <!-- Instructions for the quiz (set as hidden) -->
         <div class="box quiz-instructions" style="display: none;">
+            <h2>Instructions</h2>
             <ul class="instructions-list">
                 <!-- List of instructions for the quiz -->
-                <h2>Instructions</h2>
                 <li class="instructions-list-item">Test your Sunderland AFC knowledge here!</li>
                 <li class="instructions-list-item">There will be a total of 20 Questions.</li>
                 <li class="instructions-list-item">Each question will have 4 choices, only 1 will be correct.</li>
@@ -50,8 +50,8 @@
         </div>
         <!-- Table for displaying high scores (set as hidden) -->
         <div class="box high-scores-table" style="display: none;">
+            <h2>Highscores</h2>
             <table id="high-scores-table">
-                <h2>Highscores</h2>
                 <tr>
                     <th>Username</th>
                     <th>Score</th>
