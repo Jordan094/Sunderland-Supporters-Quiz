@@ -78,7 +78,7 @@
   
 ## First Time User Goals
 
-* To easily navigate the website on any device that they choose.
+* To easily play the game on any device they chose.
 * To understand the purpose of the website and what is on offer to them as a user.
 * To see contact details to reach the website owner.
 * To have access to links to visit extenal pages such as the official clubs website.
