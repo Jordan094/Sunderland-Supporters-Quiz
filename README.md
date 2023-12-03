@@ -58,6 +58,9 @@
     - [Instructions Section](#instructions-section-1)
     - [Highscores Section](#highscores-section-1)
     - [Username Input Section](#username-input-section)
+    - [Game Content Testing](#game-content-testing)
+    - [Game Complete Screen Testing](#game-complete-screen-testing)
+    - [404 Screen Testing](#404-screen-testing)
 
 
 
@@ -360,5 +363,39 @@ Highscores are logged to the highscores table but the data is lost after page re
   * Text input box to be shown and a prompt to enter username will be shown.
   * Start game button underneath text input box and also a button to return to main menu.
   * Validation to make sure that a username is entered and not left blank before continuing.
+
+Result: All testing passed.
+
+### Game Content Testing
+
+* Expectations:
+  * Once userchosen and start game button pressed user to be taken straight into game.
+  * Question to be shown at the top of the container.
+  * Questions to be shown in a random order.
+  * 4 Possible answers to be shown with only 1 being correct.
+  * When user choses correct answer positviv chime sound to be played.
+  * When user choses incorrect answer thud noise to be played.
+  * Score to be counted when user gets question correct.
+  * 20 Total questions to be shown.
+  * Total score to be logged to highscores once complete.
+  
+Result: All testing passed.
+
+### Game Complete Screen Testing
+
+* Expectations:
+  * Once 20 questions answered game to be complete.
+  * Message thanking user for playing to be shown.
+  * Further message telling the user how many questions they got correct to be shown.
+  * Main menu button to be present at the bottom of the game container.
+
+Result: All testing passed.
+
+### 404 Screen Testing
+
+* Expectations:
+  * Background to be removed from 404 page.
+  * Message shown to user stating that page could not be found.
+  * Button to return to main menu/home page.
 
 Result: All testing passed.
