@@ -63,6 +63,7 @@
     - [404 Screen Testing](#404-screen-testing)
   - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
     - [First Time User Goals](#first-time-user-goals-1)
+    - [Frequent User Goals](#frequent-user-goals-1)
 
 
 
@@ -407,13 +408,13 @@ Result: All testing passed.
 
 ### First Time User Goals
 
-**As a first-time user, I want to easily navigate the site on different devices, including a desktop computer, a tablet, and a smartphone**
+**As a first-time user, I want to easily navigate the site on different devices, including a desktop computer, a tablet, and a smartphone.**
 
     - The website has been designed with a simplistic mobile first aproach which scales depending on the device it is being viewed on.
     - All of the game has been designed to work on one single page which is also the home page so they will not need to look for it.
     - There is a footer at the bottom of the page containing external links.
 
-**As a first-time user, I want to easily play the game on different devices, including a desktop computer, a tablet, and a smartphone**
+**As a first-time user, I want to easily play the game on different devices, including a desktop computer, a tablet, and a smartphone.**
 
     - The game has been desgined to be played in one single container. This eliminated the possibility of accidentally exiting by leaving the website.
     - The main menu is easy to navigate and understand.
@@ -423,7 +424,7 @@ Result: All testing passed.
     - The total score is shown to the user at the end of the game.
     - The score is logged on the highscores section.
 
-**As a first time user, I want to see contact details to reach the website owner**
+**As a first time user, I want to see contact details to reach the website owner.**
 
     - The email and phone icons in the footer allow the user to contact the website owner if needed.
 
@@ -432,6 +433,25 @@ Result: All testing passed.
     - The name of the website is a simple explanation of what the actual content is going to be
     - The instructions provide a further insight.
 
-**As a first time user, I want to be able to view the instructions of how to play the game**
+**As a first time user, I want to be able to view the instructions of how to play the game.**
 
     - The games main menu screen contains a comprehensive set of instructions of how to play the game and how the users score will be calculated.
+
+### Frequent User Goals
+
+**As a frequent user, I want to View the Highscores and see how they rank against other players.**
+
+    - After the game is complete the user is told what there score is and it is logged into the table on the highscores.
+    - The player can keep playing with the same name to overwrite their previous score.
+    - The player can pass to a friend who can set a different name and compare thier scores.
+    - Unfortunately the data is only keep local for now so not shared online and lost after reset.
+
+**As a frequent user, I want to Be able to share the website with friends who might like to play.**
+
+    - There is a share button in the footer bar.
+    - The link is copied to the users clipboard when pressed.
+    - The user also recieves a javascript prompt letting them know that the link has been copied.
+
+**As a frequent user, I want to Be able to contact the owner if needed or access social media pages from the footer.**
+
+    - The email and phone icons in the footer allow the user to contact the website owner if needed.
