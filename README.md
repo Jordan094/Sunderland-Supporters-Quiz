@@ -61,6 +61,8 @@
     - [Game Content Testing](#game-content-testing)
     - [Game Complete Screen Testing](#game-complete-screen-testing)
     - [404 Screen Testing](#404-screen-testing)
+  - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
+    - [First Time User Goals](#first-time-user-goals-1)
 
 
 
@@ -78,6 +80,7 @@
   
 ## First Time User Goals
 
+* To easily navigate the site on any device they chose.
 * To easily play the game on any device they chose.
 * To understand the purpose of the website and what is on offer to them as a user.
 * To see contact details to reach the website owner.
@@ -87,6 +90,7 @@
 ## Frequent User Goals
 
 * View the Highscores and see how they rank against other players
+* Be able to share the website with friends who might like to play.
 * Be able to contact the owner if needed or access social media pages from the footer.
 
 ## Features To Be Included
@@ -399,3 +403,32 @@ Result: All testing passed.
   * Button to return to main menu/home page.
 
 Result: All testing passed.
+
+## Testing User Stories from User Experience (UX) Section
+
+### First Time User Goals
+
+**As a first-time user, I want to easily navigate the site on different devices, including a desktop computer, a tablet, and a smartphone**
+
+    - The website has been designed with a simplistic mobile first aproach which scales depending on the device it is being viewed on.
+    - All of the game has been designed to work on one single page which is also the home page so they will not need to look for it.
+    - There is a footer at the bottom of the page containing external links.
+
+**As a first-time user, I want to easily play the game on different devices, including a desktop computer, a tablet, and a smartphone**
+
+    - The game has been desgined to be played in one single container. This eliminated the possibility of accidentally exiting by leaving the website.
+    - The main menu is easy to navigate and understand.
+    - The game has a instructions section telling the user how to play.
+    - The game provides the user with audible feedback for correct and incorrect answers.
+    - The game informs the user when the quiz is complete.
+    - The total score is shown to the user at the end of the game.
+    - The score is logged on the highscores section.
+
+**As a first time user, I want to see contact details to reach the website owner**
+
+    - The email and phone icons in the footer allow the user to contact the website owner if needed.
+
+**As a first time user, I want to understand the purpose of the website and what is on offer to them as a user.**
+
+    - The name of the website is a simple explanation of what the actual content is going to be
+    - The instructions provide a further insight.
