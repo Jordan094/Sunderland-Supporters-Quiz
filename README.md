@@ -130,23 +130,23 @@ The footer for the website is simple and clean and easy for the user to understa
 
 As the Sunderland Supporters Quiz is on one single page all the sections found on the page need to be activated by the user. As a default. Depending on the choice of the user. Certain functions will be ran that show the user different parts of the quiz.
 
-__Main Menu Screen__
+### Main Menu Screen
 ![Responsive image placeholder]()
 This is the first screen that the user will see when visting the URL. The user will have a choice of three menu selections: The play game, highscores and lastly the instructions. There will also be a mute button which is constantly present.
 
-__Instructions Section__
+### Instructions Section
 ![Responsive image placeholder]()
 The instructions section is at the bottom of the menu screen. The rationale behind this choice of placement is that although new users will likely visit that section first. Returning users will have little to no use for that menu screen. The layout is very simple and to the point and clearly explains to the user how the game is played and how their scores will be calculated.
 
-__Highscores Section__
+### Highscores Section
 ![Responsive image placeholder]()
 The highscores section is the middle choice on the menu selection screen. The rationale behind this choice of placement is that after the user has played and completed a game they will be curious to how their score competes with other players. The highscores itself is a simple table which shows the username of the play and the score they recieved it is displayed with the highest score at the top and the lowest at the bottom. To keep in theme with the Sunderland AFC colours I have made the table display in red and white.
 
-__Enter Username__
+### Enter Username
 ![Responsive image placeholder]()
 The play game button takes the user to a simple username input screen. The user is then presented with 2 options. Start the game or return to the main menu. The name field is a required input and the user will need to input a username or the game will not let them continue.
 
-__Play Game (The Quiz Itself)__
+### Play Game (The Quiz Itself)
 ![Responsive image placeholder]()
 When the user inputs a username and presses start game the quiz will begin. The user will be presented with a total of 20 questions. The questions all have a total of 4 possible answers, only 1 will be correct. The user will be given an audible feedback if the answered the selected is correct or incorrect. The correct noise is a positive chime. The incorrect answer plays a thud sound. The user will be presented with a total of 20 questions to complete the quiz. The questions will be displayed in a random order.
 
