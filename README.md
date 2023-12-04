@@ -39,6 +39,9 @@
     - [Play Game (The Quiz Itself)](#play-game-the-quiz-itself)
     - [Game Complete](#game-complete)
     - [404 Page](#404-page)
+  - [Extra Feautres](#extra-feautres)
+    - [Audible Feedback](#audible-feedback)
+    - [Mute Button](#mute-button)
 - [**Technologies Used**](#technologies-used)
 - [**Accessibility**](#accessibility)
 - [**Deployment \& Local Development**](#deployment--local-development)
@@ -51,7 +54,7 @@
     - [Background](#background-1)
     - [Game Container](#game-container)
     - [Footer](#footer-1)
-    - [Mute Button](#mute-button)
+    - [Mute Button](#mute-button-1)
   - [Game Testing](#game-testing)
     - [Main Menu](#main-menu)
     - [Main Menu Button Testing](#main-menu-button-testing)
@@ -226,6 +229,19 @@ There will only be 1 choice and that is for the user to return to the main menu 
 ### 404 Page
 ![Responsive image](/assets/readme-files/design/Responsive_404_Screen.png)
 This is the only page other than the index page. I do not intend for users to ever reach this page. I have taken away all of the backgrounds and added a simple page not found text.
+
+## Extra Feautres
+
+Below are a list of extra features I have added to my website which I believe inproves functionality and accessibility to the end user.
+
+### Audible Feedback
+
+Correct Sound
+![correct-sound](/assets/readme-files/design/correct.mp4)
+
+### Mute Button
+
+I have added 
 
 # **Technologies Used**
 
