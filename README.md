@@ -237,7 +237,7 @@ Below are a list of extra features I have added to my website which I believe in
 ### Audible Feedback
 
 Correct Sound
-![correct-sound](/assets/readme-files/design/correct.mp4)
+[correct-sound](/assets/readme-files/design/correct.mp4)
 
 ### Mute Button
 
