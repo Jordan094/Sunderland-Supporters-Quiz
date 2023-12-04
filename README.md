@@ -318,6 +318,15 @@ The following section will explain in detail how each function works.
 | ------------    | ------------     |
 |  toggleButtonsAndElements()   |  This function ensures that the following buttons 'Play Game' 'High Scores' and 'Instructions' hide and display the correct elements to the user when selected. |
 |  checkUsernameInput()   |  This function calls a number of actions it checks to ensure a username has been entered. If not an alert will be displayed to prompt the user to input one. Its also calls the shuffleQuestions() function so that if a user completes the quiz and starts again the questions will be randomised everytime they play. |
+|  displayQuestion()   |  This function displays a question to the user and the 4 possible answers. The function is a continuous loops which only ends after all of the questions have been displayed to the user.  |
+|  shuffleQuestions(questions)   |  This function uses a random.floor to randomise the order in which the questions are displayed.  |
+|  checkAnswer()  |  This functions checks the answer that the user has chosen. The function then calls a number of actions. If the answer is correct it will call the playCorrectSound() function and update the variable correctAnswers++ which is the users score, if wrong it will call the playWrongSound() and not update the score. It will also update the variable currentQuestionIndex so the game knows how may questions the user has answered at that stage. Once the last question has been answered and displayQuestion() can no longer be called. The game over section of the quiz will be shown and the highscore logHighScore function will be called.  |
+|  toggleMute()  |  The toggleMute function does a number of different things. Firstly the sound button is defaulted to be on, the function to ensure that the browser supports mute functionality. If muting is supported in the browser when you press the button it will both mute the game and then change the icon to a muted icon. If muting is not supported in the broswer the user will be given the following message. "        alert("Mute functionality not supported in your browser.");"  |
+|  playCorrectSound()  |  This function is tied into the check checkAnswer(selectedChoice) function. If the user choses the correct answer the correctSound will chime.  |
+|  playWrongSound()  |  This function is tied into the check checkAnswer(selectedChoice) function. If the user choses the incorrect answer the incorrectSound will chime.  |
+|  logHighScore(username, score) |  Once the game is complete the logHighScore(username, score) function will be called. It creates a new row for the highscores table and then it takes the values of the username and score variable and appends the data to a new row.   |
+|  insertAtCorrectPosition(table, newRow) |  This is called after the logHighScore(username, score) function to ensure that the highscores is sorted in highest to lowest.   |
+
 
 
 
