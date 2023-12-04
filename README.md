@@ -45,6 +45,7 @@
     - [Share Tool](#share-tool)
 - [**Design Justifications**](#design-justifications)
 - [**Future Developments**](#future-developments)
+- [**Functions Explained**](#functions-explained)
 - [**Technologies Used**](#technologies-used)
 - [**Accessibility**](#accessibility)
 - [**Deployment \& Local Development**](#deployment--local-development)
@@ -308,6 +309,17 @@ There are a number of features I would like to add in the future to my game the 
   * Instead of 20 set questions I would like to have 100 questions that are randomised each time.
   * I would like to have my questions in a seperate file or in an API and have the questions be pulled from that file to reduce code on my main script file.
   * I would like the highscores to be held on a database and not lost on reset.
+
+# **Functions Explained**
+
+The following section will explain in detail how each function works.
+
+|      Function   |   Explanation    |
+| ------------    | ------------     |
+|  toggleButtonsAndElements()   |  This function ensures that the following buttons 'Play Game' 'High Scores' and 'Instructions' hide and display the correct elements to the user when selected. |
+|  checkUsernameInput()   |  This function calls a number of actions it checks to ensure a username has been entered. If not an alert will be displayed to prompt the user to input one. Its also calls the shuffleQuestions() function so that if a user completes the quiz and starts again the questions will be randomised everytime they play. |
+
+
 
 # **Technologies Used**
 
