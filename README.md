@@ -43,7 +43,8 @@
     - [Audible Feedback](#audible-feedback)
     - [Mute Button](#mute-button)
     - [Share Tool](#share-tool)
-- [Design Justifications](#design-justifications)
+- [**Design Justifications**](#design-justifications)
+- [**Future Developments**](#future-developments)
 - [**Technologies Used**](#technologies-used)
 - [**Accessibility**](#accessibility)
 - [**Deployment \& Local Development**](#deployment--local-development)
@@ -266,7 +267,7 @@ The share tool is present inside the footer and when pressed it automatically co
 
 ![share](/assets/readme-files/design/share-tool.png)
 
-# Design Justifications
+# **Design Justifications**
 
 __Background Image__
 
@@ -299,6 +300,14 @@ I opted to randomise the order in which the questions were displayed. This is be
 __No Correct Answer Spoilers__
 
 The reason I chose to not tell the user what the correct answer was if they were incorrect was because I did not want the user to repeat the game then knowing the correct answers to boost their scores. I also believe this would prompt a user to do further research about the club whilst searching for the correct answer.
+
+# **Future Developments**
+
+There are a number of features I would like to add in the future to my game the features are as follows:
+
+  * Instead of 20 set questions I would like to have 100 questions that are randomised each time.
+  * I would like to have my questions in a seperate file or in an API and have the questions be pulled from that file to reduce code on my main script file.
+  * I would like the highscores to be held on a database and not lost on reset.
 
 # **Technologies Used**
 
