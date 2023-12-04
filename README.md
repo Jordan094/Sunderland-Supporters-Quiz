@@ -601,9 +601,7 @@ I have 1 variable which I declared but never used so that was removed from the c
 
 ## Content and Imagery
 
-* [Sunderland AFC Official Club Page](SAFC.com) for providing me with a number of different resources which includes:
-  * Club knowledge to create my questions
-  * 
+* [Sunderland AFC Official Club Page](SAFC.com) for providing me with a number of different resources to assist creating my questions  * 
   
 * [SkySports](https://www.skysports.com/) for the hero image.
 
