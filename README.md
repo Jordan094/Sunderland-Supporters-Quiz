@@ -42,6 +42,8 @@
   - [Extra Feautres](#extra-feautres)
     - [Audible Feedback](#audible-feedback)
     - [Mute Button](#mute-button)
+    - [Share Tool](#share-tool)
+- [Design Justifications](#design-justifications)
 - [**Technologies Used**](#technologies-used)
 - [**Accessibility**](#accessibility)
 - [**Deployment \& Local Development**](#deployment--local-development)
@@ -236,12 +238,35 @@ Below are a list of extra features I have added to my website which I believe in
 
 ### Audible Feedback
 
-Correct Sound
+Correct Sound - Downloadable file
 [correct-sound](/assets/readme-files/design/correct.mp4)
+
+Incorrect Sound - Downloadable file
+[incorrect-sound](/assets/readme-files/design/wrong.mp4)
 
 ### Mute Button
 
-I have added 
+I have added a mute button for players who may not be able to play with the sound on. For example if they have company and do not want to disturb them.
+
+The button is red and has a speaker on icon when sound is audible.
+
+The button is grey and has a speaker muted on icon when sound is off.
+
+__Sound On__
+![sound-on](/assets/readme-files/design/sound-on.png)
+
+__Sound Off__
+![sound-off](/assets/readme-files/design/sound-off.png)
+
+### Share Tool
+
+I have added a share button for users who would like to share the quiz with their friends.
+
+The share tool is present inside the footer and when pressed it automatically copies the site url to the clipboard and alerts the user.
+
+![share](/assets/readme-files/design/share-tool.png)
+
+# Design Justifications
 
 # **Technologies Used**
 
