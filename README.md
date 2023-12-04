@@ -268,6 +268,38 @@ The share tool is present inside the footer and when pressed it automatically co
 
 # Design Justifications
 
+__Background Image__
+
+Although the only image present on the website is the background image. I feel like it is an extremly important aspect of the quiz game. I have purposely opted to chose a image of the football pitch as it gives the user the feeling that they are playing on the pitch. 
+
+The image was originally in colour and an issue that I noticed early into development of my game was the colour of the pitch and seating was clashing with the colour of the font. Because of this I photoshopped the image to remove the colour.
+
+Lastly as there was a small possibility that some of the font would still clash with the background image I decided to add a transparent black background to my quiz container.
+
+__Game Held On Single Page__
+
+The reason I chose to khave all my content be shown on a single landing page was for multiple reasons. First of all I did not want to overload the user by having them head to different pages to find out information such as instructions or highscore I also wanted to add to the mobile first design and make the user feel like they were playing the game on a mobile app. I did not want to add extra time or take away from the experience by having a new page load everytime a new question or piece of information was shown to the user.
+
+__Layout and Design of highscores__
+
+The reason I chose the layout I did for the highscores table was because I felt that it emulated the classic feel that you would find when viewing the highscores on a retro game. I simply wanted to show the user how many questions they got correct in the most straightforward manner. The colour scheme what I chose to go for are the conventional Red and White Stripe what make the Sunderland football fan feel at home when viewing.
+
+__Question Limit__
+
+I limited the amount of questions to 20 as I did not want the user to be overwhemeled by a large amount of questions.
+
+__No home button in game__
+
+I decided against adding a home button directly in my quiz game, the reason is because I liked the simple layout of the container as it was and as the buttons were quite large I did not want the user to accidentally press it and possibly lose progress. Instead I opted to place a home icon on the footer of the page instead.
+
+__Random Question Order__
+
+I opted to randomise the order in which the questions were displayed. This is because I did not want the user to memorise a correct question pattern to abuse the highscores.
+
+__No Correct Answer Spoilers__
+
+The reason I chose to not tell the user what the correct answer was if they were incorrect was because I did not want the user to repeat the game then knowing the correct answers to boost their scores. I also believe this would prompt a user to do further research about the club whilst searching for the correct answer.
+
 # **Technologies Used**
 
 * [HTML5](https://www.w3schools.com/html/html_intro.asp)
