@@ -167,7 +167,7 @@ Here are all of the wireframes designed for this page broken down into device le
   * [Game Complete desktop wireframe](/assets/readme-files/wireframes/Quiz_%20Game_Finished_Desktop.png)
 * 404 Page
   * [404 Page mobile and tablet wireframe](/assets/readme-files/wireframes/404_Tablet_Mobile.png)
-  * [404 Page desktop wireframe](/assets/readme-files/wireframes/404_ Desktop.png)
+  * [404 Page desktop wireframe](/assets/readme-files/wireframes/404_Desktop.png)
 
 ## Website Layout
 
